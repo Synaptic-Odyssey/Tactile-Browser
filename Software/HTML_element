@@ -1,0 +1,53 @@
+class HTMLElement:
+    
+    def __init__(self, tag, text, attributes=None, children=None):
+        self.tag = tag
+        self.text = text.strip() if text else ""
+        self.attributes = attributes or {}
+        self.children = children or []
+
+        self.is_interactive = self.determine_interactivity()
+        
+        #the configuration of raised keycaps
+        self.tactile_element = self.determine_tactile()
+        
+        self.display_type = self.determine_display_type()
+
+        
+
+    def determine_display_type(self):
+        block_tags = ["div", "p", "header", "footer", "section", "article"]
+        inline_tags = ["span", "a", "strong", "em", "label"]
+        interactive_tags = ["button", "input", "select", "textarea"]
+        if self.tag in interactive_tags:
+            return "interactive"
+        elif self.tag in block_tags:
+            return "block"
+        elif self.tag in inline_tags:
+            return "inline"
+        else:
+            return "unknown"
+        
+
+    def determine_interactivity(self):
+        return self.tag in ["a", "button", "input", "select", "textarea"]
+    
+
+    def determine_tactile(self):
+        roles = {
+            "a": "link",
+            "button": "button",
+            "input": "input_field",
+            "select": "dropdown",
+            "textarea": "text_area",
+            "h1": "header",
+            "h2": "header",
+            "h3": "header",
+            "h4": "header",
+            "h5": "header",
+            "h6": "header",
+        }
+        return roles.get(self.tag, "content")
+
+    def __repr__(self):
+        return f"<HTMLElement tag={self.tag} role={self.role} text='{self.text[:15]}...'>"
