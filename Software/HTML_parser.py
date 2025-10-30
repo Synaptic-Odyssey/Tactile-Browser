@@ -56,5 +56,3 @@ def extract_visible_elements(node):
 
     return visible
 
-
-    return visible
