@@ -23,6 +23,7 @@ def parse_html(html: str):
 
 def extract_visible_elements(node):
     visible = []
+
     for child in node.children:
         if getattr(child, "name", None) is None:
             continue
@@ -35,9 +36,25 @@ def extract_visible_elements(node):
 
         children = extract_visible_elements(child)
 
-        element = HTMLElement(tag=child.name, text=text, attributes=attributes, children=children)
+        is_interactive = (
+            child.name in ["a", "button", "input", "select", "textarea"]
+            or attributes.get("role") in ["button", "link"]
+            or "onclick" in attributes
+        )
 
-        if element.text or element.is_interactive or element.children:
+        if child.name == "img":
+            alt_text = attributes.get("alt", "")
+            element = HTMLElement(tag="img", text=alt_text, attributes=attributes, children=children)
             visible.append(element)
+            continue
+
+        element = HTMLElement(tag=child.name, text=text, attributes=attributes, children=children)
+        element.is_interactive = is_interactive
+
+        if text or is_interactive or children:
+            visible.append(element)
+
+    return visible
+
 
     return visible
