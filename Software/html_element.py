@@ -11,11 +11,13 @@ class HTMLElement:
         [2, 1, 2],
         [0, 2, 0],
     ],
+    
     "link": [
         [0, 2, 0],
         [2, 1, 2],
         [0, 2, 0],
     ],
+    
     "input_field": [
         [0, 0, 0, 2, 0],
         [2, 2, 2, 1, 2],
@@ -43,6 +45,8 @@ class HTMLElement:
     ],
     
     #dropdowns are dependent on how many links they have. Replace this with method.
+    #dropdowns are dependent on how many links they have. The plan is all the links be represented by one block, 
+    #the dropdown will be 2 blocks wide, and n/2 blocks tall (n = number of links).
     "dropdown": [
         [1, 1, 1],
         [1, 0, 1],
@@ -98,7 +102,7 @@ class HTMLElement:
             "h5": "header",
             "h6": "header",
         }
-        return roles.get(self.tag, "content")
+        return roles.get(self.tag)
 
     def __repr__(self):
-        return f"<HTMLElement tag={self.tag} role={self.role} text='{self.text[:15]}...'>"
+        return f"<HTMLElement tag={self.tag} tactile={self.tactile_element} text='{self.text[:15]}...'>"
