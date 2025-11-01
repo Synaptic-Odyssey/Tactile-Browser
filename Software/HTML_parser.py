@@ -2,8 +2,11 @@
 # or if there are too many elements, optimize the fit from top to down.
 #Actually this will parse ALL visual elements, the layout.py module will decide what the portion to display on the tactile browser
 
+#parser will create a lot of HTMLElement objects like div but they won't be rendered on the tactile browser unless they have text or are interactive elements.
+
 from bs4 import BeautifulSoup
 from html_element import HTMLElement
+
 
 def load_html(filepath: str) -> str:
     with open(filepath, "r", encoding="utf-8") as f:
@@ -11,6 +14,8 @@ def load_html(filepath: str) -> str:
 
 
 def parse_html(html: str):
+    
+    #Fix since only parsing body, won't know the title of the website and other key info. Add metadata parsing later.
     soup = BeautifulSoup(html, "html.parser")
     body = soup.body
     if body is None:
@@ -22,17 +27,34 @@ def parse_html(html: str):
 
 
 def extract_visible_elements(node):
+    
     visible = []
 
     for child in node.children:
+        
+        
+        #for current text nodes (NavigableString)
         if getattr(child, "name", None) is None:
+            text = str(child).strip()
+            if text:  
+                visible.append(HTMLElement(tag="text", text=text, attributes={}, children=[]))
             continue
 
+
+        #possible issue: if the website wraps everything in a script tag
         if child.name in ("script", "style", "meta", "link", "noscript"):
             continue
 
         attributes = dict(child.attrs)
-        text = child.get_text(strip=True)
+        
+        #checks for text DIRECTLY inside of tag and EXCLUDES nested tags --> trying to solve flattening issue
+        text_nodes = [
+            str(t).strip()
+            for t in child.children
+            if not hasattr(t, "name") and str(t).strip()
+            ]
+        text = " ".join(text_nodes)
+
 
         children = extract_visible_elements(child)
 
