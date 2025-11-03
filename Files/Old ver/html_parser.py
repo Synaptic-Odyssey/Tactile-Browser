@@ -47,7 +47,7 @@ def extract_visible_elements(node):
 
         attributes = dict(child.attrs)
         
-        #checks for text DIRECTLY inside of tag and EXCLUDES nested tags --> trying to solve flattening issue
+        #checks for text DIRECTLY inside of tag and EXCLUDES nested tags (the ones that break up the text)
         text_nodes = [
             str(t).strip()
             for t in child.children

@@ -52,18 +52,22 @@ class HTMLElement:
         [1, 0, 1],
         [0, 1, 0],
     ]
-}
+    }
 
     
     def __init__(self, tag, text, attributes=None, children=None):
         self.tag = tag
         self.text = text.strip() if text else ""
         self.attributes = attributes or {}
+        
+        #stores only direct children to preserve tree structure
         self.children = children or []
 
         self.is_interactive = self.determine_interactivity()
         
-        #the configuration of raised keycaps
+        #only gives the KEY to the configuration of raised keycaps
+        #accessing later -->
+        #HTMLElement.TACTILE_PATTERNS[element.tactile_element]
         self.tactile_element = self.determine_tactile()
         
         self.display_type = self.determine_display_type()
@@ -74,6 +78,8 @@ class HTMLElement:
         block_tags = ["div", "p", "header", "footer", "section", "article"]
         inline_tags = ["span", "a", "strong", "em", "label"]
         interactive_tags = ["button", "input", "select", "textarea"]
+        
+        #This is probably redundant, leave it for now
         if self.tag in interactive_tags:
             return "interactive"
         elif self.tag in block_tags:

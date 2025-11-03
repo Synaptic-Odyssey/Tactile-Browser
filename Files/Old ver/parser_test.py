@@ -7,7 +7,7 @@ def print_tree(elements, indent=0):
             print_tree(el.children, indent + 1)
 
 def main():
-    html = load_html("/Users/kevin/Github/Tactile-Browser/Files/Example Domain.html")
+    html = load_html("/Users/kevin/Github/Tactile-Browser/Files/Armaan's Portfolio.html")
     elements = parse_html(html)
 
     print(f"Top-level elements: {len(elements)}")
