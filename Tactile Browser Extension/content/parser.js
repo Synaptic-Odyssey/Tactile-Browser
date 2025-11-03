@@ -1,0 +1,1 @@
+//parses the rendered DOM of the javascript

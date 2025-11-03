@@ -1,0 +1,1 @@
+// Injected into every page, extracts live HTML + structure (also stores tactile configurations)

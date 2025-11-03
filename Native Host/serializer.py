@@ -1,0 +1,1 @@
+#Converts logical data (17×11 tactile grid) into a format that can actually be transmitted through USB

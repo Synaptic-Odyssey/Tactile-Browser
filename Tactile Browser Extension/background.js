@@ -1,0 +1,1 @@
+//Runs persistently, handles global logic & native communication
