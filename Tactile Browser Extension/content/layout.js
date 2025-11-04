@@ -1,1 +1,0 @@
-//etermines visible elements + maps to tactile grid (17x11)
