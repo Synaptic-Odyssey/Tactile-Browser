@@ -1,4 +1,8 @@
-// Injected into every page, extracts live HTML + structure 
+// Injected into every page, extracts live HTML + structure basically parses the rendered DOM of the javascript
+//later when the user interacts with the element on the tactile browser it must correlate to the actual element on screen
+//a unique id will map this out later
+//should work with horizontal scrolling as well
+
 
 
 function debounce(func, wait) {
@@ -47,7 +51,7 @@ function extractElements(el) {
     if (!elIsVisible(el)) return null;
 
     if (!el.dataset.tactileId) {
-        el.dataset.tactileId = crypto.randomUUID(); // unique ID
+        el.dataset.tactileId = crypto.randomUUID(); // unique ID, refer back to it later for interaction
     }
 
     const text = extractText(el);
@@ -61,13 +65,22 @@ function extractElements(el) {
 
     if (!text && !isInteractive && children.length === 0) return null;
 
+    const rect = el.getBoundingClientRect();
+
     return {
-        tag: el.tagName.toLowerCase(),
-        text,
-        isInteractive,
-        id: el.dataset.tactileId,
-        children
+    tag: el.tagName.toLowerCase(),
+    text,
+    isInteractive,
+    id: el.dataset.tactileId,
+    position: {
+        x: rect.left,
+        y: rect.top,
+        width: rect.width,
+        height: rect.height
+    },
+    children
     };
+
 }
 
 function sendElements() {
@@ -92,6 +105,9 @@ window.addEventListener('resize', debounce(sendElements, 150));
 
 const observer = new MutationObserver(debounce(sendElements, 150));
 observer.observe(document.body, { childList: true, subtree: true });
+
+
+
 
 
 
