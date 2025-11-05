@@ -1,0 +1,47 @@
+[2025-11-04 21:21:11] ======================================================================
+[2025-11-04 21:21:11] TACTILE BROWSER NATIVE HOST STARTED
+[2025-11-04 21:21:11] ======================================================================
+[2025-11-04 21:21:11] 
+--- MESSAGE #1 ---
+[2025-11-04 21:21:11] Reading message of length: 1248
+[2025-11-04 21:21:11] Message type: elements
+[2025-11-04 21:21:11] URL: https://example.com/
+[2025-11-04 21:21:11] Timestamp: 1762320071918
+[2025-11-04 21:21:11] Total root elements: 1
+[2025-11-04 21:21:11] Total elements (including nested): 5
+[2025-11-04 21:21:11] 
+Element tree:
+[2025-11-04 21:21:11] - div 'Example Domain
+
+This domain is for use in document' pos:(302, 123)
+[2025-11-04 21:21:11]   - h1 'Example Domain' pos:(302, 123)
+[2025-11-04 21:21:11]   - p 'This domain is for use in documentation examples w' pos:(302, 168)
+[2025-11-04 21:21:11]   - p 'Learn more' pos:(302, 203)
+[2025-11-04 21:21:11]     - a 'Learn more' [INTERACTIVE] pos:(302, 203)
+[2025-11-04 21:21:11] 
+Interactive elements: 1
+[2025-11-04 21:21:11] Sent response: {'status': 'ok'}
+[2025-11-04 21:21:11] Response sent successfully
+[2025-11-04 21:21:11] 
+--- MESSAGE #2 ---
+[2025-11-04 21:21:14] Reading message of length: 1248
+[2025-11-04 21:21:14] Message type: elements
+[2025-11-04 21:21:14] URL: https://example.com/
+[2025-11-04 21:21:14] Timestamp: 1762320074711
+[2025-11-04 21:21:14] Total root elements: 1
+[2025-11-04 21:21:14] Total elements (including nested): 5
+[2025-11-04 21:21:14] 
+Element tree:
+[2025-11-04 21:21:14] - div 'Example Domain
+
+This domain is for use in document' pos:(302, 123)
+[2025-11-04 21:21:14]   - h1 'Example Domain' pos:(302, 123)
+[2025-11-04 21:21:14]   - p 'This domain is for use in documentation examples w' pos:(302, 168)
+[2025-11-04 21:21:14]   - p 'Learn more' pos:(302, 203)
+[2025-11-04 21:21:14]     - a 'Learn more' [INTERACTIVE] pos:(302, 203)
+[2025-11-04 21:21:14] 
+Interactive elements: 1
+[2025-11-04 21:21:14] Sent response: {'status': 'ok'}
+[2025-11-04 21:21:14] Response sent successfully
+[2025-11-04 21:21:14] 
+--- MESSAGE #3 ---
