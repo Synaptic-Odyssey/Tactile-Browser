@@ -100,6 +100,9 @@ function sendElements() {
 
 sendElements();
 
+//Updates after scrolling and inactivity for 150 milliseconds. 
+// However, I might make scrolling discrete (with a button) in the future. It depends on which case works better.
+
 window.addEventListener('scroll', debounce(sendElements, 150));
 window.addEventListener('resize', debounce(sendElements, 150));
 

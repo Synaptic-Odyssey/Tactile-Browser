@@ -1,5 +1,26 @@
 #determines visible elements + maps to tactile grid (17x11)
-#NOTE: user cannot drag/resize windows
+#This could actually handle resized windows
+
+
+class Layout:
+    
+    def __init__(self):
+        pass
+    
+    #for testing purposes
+    def print_elements(self, elements):
+
+        def recurse(elems, indent=0):
+            for el in elems:
+                print(" " * indent + f"- {el.get('tag')} | interactive: {el.get('isInteractive')} | text: '{el.get('text')[:30]}'")
+                if el.get("children"):
+                    recurse(el["children"], indent + 2)
+        
+        recurse(elements)
+
+
+
+
 
     #1 is raised, 0 and 2 are flat. 0 allows other elements to be raised, but nothing can be raised on 2 (for orthogonal separation).
     #this way no need for separate footprint and bounding box definitions

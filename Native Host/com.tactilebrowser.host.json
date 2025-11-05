@@ -1,0 +1,10 @@
+{
+    "name": "com.tactilebrowser.host",
+    "description": "Tactile Browser Native Bridge",
+    "path": "/Users/kevin/Github/Tactile-Browser/Native Host/message_handler.py",
+    "type": "stdio",
+    "allowed_origins": [
+        "chrome-extension://<omdokfnalgkjclbchcclagkggbihocmm>/"
+    ]
+}
+
