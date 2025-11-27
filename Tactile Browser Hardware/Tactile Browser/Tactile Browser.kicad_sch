@@ -5630,6 +5630,28 @@
 			)
 		)
 	)
+	(global_label "SCL"
+		(shape input)
+		(at 254 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4f5c3dc9-d27d-4b09-b928-4713b9e8ac59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 77.6128 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S2_in1"
 		(shape input)
 		(at 330.2 193.04 180)
@@ -8754,6 +8776,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 256.54 71.12 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca47c44d-4a27-4489-a8bb-fadf5b50adc7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 77.6733 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V"
 		(shape input)
 		(at 129.54 251.46 90)
@@ -9018,6 +9062,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 275.59 237.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1ad7aa8-dbfe-4a9d-ad8f-059e7c0fdea9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.1433 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S18_out2"
 		(shape input)
 		(at 59.69 306.07 0)
@@ -9124,6 +9190,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 275.59 240.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d60f98ea-0d2f-4988-9514-f945a0354b9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 282.0828 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -16191,6 +16279,76 @@
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 256.54 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de8146a9-d01a-4b8a-a8fc-5402e257e085")
+		(property "Reference" "I2C_bus"
+			(at 257.81 65.4049 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 257.81 67.9449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 256.54 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c1eb594-d852-43d0-8719-7b611e6c2d8d")
+		)
+		(pin "2"
+			(uuid "8102690c-b2ca-47ed-9cef-b6971bf68cc8")
+		)
+		(instances
+			(project ""
+				(path "/2e399075-89ae-469c-893b-1284214b820d"
+					(reference "I2C_bus")
 					(unit 1)
 				)
 			)
