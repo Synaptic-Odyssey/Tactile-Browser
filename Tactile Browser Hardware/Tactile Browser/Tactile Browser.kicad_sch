@@ -10608,7 +10608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 492.76 251.46 0)
 			(effects
 				(font
@@ -10678,7 +10678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 491.49 278.13 0)
 			(effects
 				(font
@@ -10748,7 +10748,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 492.76 288.29 0)
 			(effects
 				(font
@@ -10885,7 +10885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 52.07 284.48 0)
 			(effects
 				(font
@@ -10955,7 +10955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 238.76 154.94 0)
 			(effects
 				(font
@@ -11153,7 +11153,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 53.34 270.51 0)
 			(effects
 				(font
@@ -11223,7 +11223,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 492.76 299.72 0)
 			(effects
 				(font
@@ -11685,7 +11685,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 487.68 82.55 0)
 			(effects
 				(font
@@ -11755,7 +11755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 283.21 300.99 0)
 			(effects
 				(font
@@ -12019,7 +12019,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 53.34 327.66 0)
 			(effects
 				(font
@@ -12087,7 +12087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 439.42 44.45 0)
 			(effects
 				(font
@@ -12157,7 +12157,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 54.61 259.08 0)
 			(effects
 				(font
@@ -12225,7 +12225,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 440.69 64.77 0)
 			(effects
 				(font
@@ -12293,7 +12293,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 463.55 99.06 0)
 			(effects
 				(font
@@ -12449,7 +12449,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 53.34 241.3 0)
 			(effects
 				(font
@@ -12519,7 +12519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 491.49 218.44 0)
 			(effects
 				(font
@@ -12811,7 +12811,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 53.34 293.37 0)
 			(effects
 				(font
@@ -12881,7 +12881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 262.89 346.71 0)
 			(effects
 				(font
@@ -13251,7 +13251,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 54.61 303.53 0)
 			(effects
 				(font
@@ -13321,7 +13321,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 492.76 228.6 0)
 			(effects
 				(font
@@ -13389,7 +13389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 533.4 99.06 0)
 			(effects
 				(font
@@ -13459,7 +13459,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 491.49 312.42 0)
 			(effects
 				(font
@@ -13527,7 +13527,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 533.4 64.77 0)
 			(effects
 				(font
@@ -13579,7 +13579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73fecaa6-a346-4c2a-bdf7-12cf7718c5a2")
-		(property "Reference" "12V_supply"
+		(property "Reference" "12V_supply1"
 			(at 72.39 57.7849 90)
 			(effects
 				(font
@@ -13597,7 +13597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
 			(at 71.12 58.42 0)
 			(effects
 				(font
@@ -13633,7 +13633,7 @@
 		(instances
 			(project ""
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "12V_supply")
+					(reference "12V_supply1")
 					(unit 1)
 				)
 			)
@@ -13665,7 +13665,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 510.54 99.06 0)
 			(effects
 				(font
@@ -13733,7 +13733,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 510.54 64.77 0)
 			(effects
 				(font
@@ -13803,7 +13803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 236.22 300.99 0)
 			(effects
 				(font
@@ -13913,7 +13913,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 510.54 44.45 0)
 			(effects
 				(font
@@ -14117,7 +14117,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 463.55 44.45 0)
 			(effects
 				(font
@@ -14185,7 +14185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 487.68 44.45 0)
 			(effects
 				(font
@@ -14475,7 +14475,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 510.54 82.55 0)
 			(effects
 				(font
@@ -14545,7 +14545,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 492.76 322.58 0)
 			(effects
 				(font
@@ -14612,7 +14612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 53.34 232.41 0)
 			(effects
 				(font
@@ -15040,7 +15040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
 			(at 285.75 156.21 0)
 			(effects
 				(font
@@ -15150,7 +15150,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 440.69 82.55 0)
 			(effects
 				(font
@@ -15664,7 +15664,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 491.49 266.7 0)
 			(effects
 				(font
@@ -15716,7 +15716,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb92c73-5b03-46b0-b223-c0a160434d4b")
-		(property "Reference" "5V_logic_rail"
+		(property "Reference" "5V_logic_rail1"
 			(at 107.95 57.7849 90)
 			(effects
 				(font
@@ -15734,7 +15734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 106.68 58.42 0)
 			(effects
 				(font
@@ -15767,7 +15767,7 @@
 		(instances
 			(project ""
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "5V_logic_rail")
+					(reference "5V_logic_rail1")
 					(unit 1)
 				)
 			)
@@ -15799,7 +15799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 487.68 99.06 0)
 			(effects
 				(font
@@ -16003,7 +16003,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 463.55 64.77 0)
 			(effects
 				(font
@@ -16070,7 +16070,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 494.03 237.49 0)
 			(effects
 				(font
@@ -16294,7 +16294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de8146a9-d01a-4b8a-a8fc-5402e257e085")
-		(property "Reference" "I2C_bus"
+		(property "Reference" "I2C_bus1"
 			(at 257.81 65.4049 90)
 			(effects
 				(font
@@ -16312,7 +16312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 256.54 66.04 0)
 			(effects
 				(font
@@ -16348,7 +16348,7 @@
 		(instances
 			(project ""
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "I2C_bus")
+					(reference "I2C_bus1")
 					(unit 1)
 				)
 			)
@@ -16466,7 +16466,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 440.69 99.06 0)
 			(effects
 				(font
@@ -16534,7 +16534,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 533.4 82.55 0)
 			(effects
 				(font
@@ -16604,7 +16604,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 54.61 313.69 0)
 			(effects
 				(font
@@ -16980,7 +16980,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 487.68 64.77 0)
 			(effects
 				(font
@@ -17134,7 +17134,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 463.55 82.55 0)
 			(effects
 				(font
@@ -17202,7 +17202,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 			(at 533.4 44.45 0)
 			(effects
 				(font
