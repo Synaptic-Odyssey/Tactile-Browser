@@ -10818,7 +10818,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-2.5sqmm_1x02_P8.8mm_D2.4mm_OD4.4mm"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
 			(at 53.34 248.92 0)
 			(effects
 				(font
@@ -11465,7 +11465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 457.2 300.99 0)
 			(effects
 				(font
@@ -12675,7 +12675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 412.75 381 0)
 			(effects
 				(font
@@ -13983,7 +13983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 157.48 299.72 0)
 			(effects
 				(font
@@ -14255,7 +14255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 215.9 208.28 0)
 			(effects
 				(font
@@ -14682,7 +14682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 453.39 208.28 0)
 			(effects
 				(font
@@ -14904,7 +14904,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 217.17 297.18 0)
 			(effects
 				(font
@@ -15220,7 +15220,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 383.54 298.45 0)
 			(effects
 				(font
@@ -15442,7 +15442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 190.5 379.73 0)
 			(effects
 				(font
@@ -15869,7 +15869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 161.29 205.74 0)
 			(effects
 				(font
@@ -16674,7 +16674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SSOP-24_5.3x8.2mm_P0.65mm"
+		(property "Footprint" "Package_DIP:DIP-24_W15.24mm"
 			(at 378.46 208.28 0)
 			(effects
 				(font
