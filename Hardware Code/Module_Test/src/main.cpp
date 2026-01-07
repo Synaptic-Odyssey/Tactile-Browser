@@ -19,6 +19,8 @@ constexpr uint8_t bitMask(uint8_t bit) {
   return 1 << (bit % 8);
 }
 
+void setSolenoid(uint8_t solenoid, bool up);
+void updateShiftRegisters();
 
 
 void setup() {
@@ -29,12 +31,15 @@ void setup() {
   pinMode(STBY_PIN, OUTPUT);
   digitalWrite(STBY_PIN, HIGH);
 
+
+
   SPI.begin();
 
 }
 
 
 void loop() {
+
   setSolenoid(0, false);
   setSolenoid(1, false);
   updateShiftRegisters();
