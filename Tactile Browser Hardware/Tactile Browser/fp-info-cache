@@ -1,4 +1,4 @@
-26772875655145427
+26778179400604891
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -38077,8 +38077,8 @@ PinHeader_1x08_P2.54mm_Vertical
 Through hole straight pin header, 1x08, 2.54mm pitch, single row
 Through hole pin header THT 1x08 2.54mm single row
 0
-16
-16
+8
+8
 Connector_PinHeader_2.54mm
 PinHeader_1x08_P2.54mm_Vertical_SMD_Pin1Left
 surface-mounted straight pin header, 1x08, 2.54mm pitch, single row, style 1 (pin 1 left)
@@ -39831,6 +39831,20 @@ Surface mounted pin header SMD 2x40 2.54mm double row
 80
 Connector_PinHeader_2.54mm
 Untitled
+
+
+0
+0
+0
+Connector_PinHeader_2.54mm
+Untitled_1
+
+
+0
+0
+0
+Connector_PinHeader_2.54mm
+Untitled_2
 
 
 0
@@ -99385,6 +99399,13 @@ Logo WEEE
 0
 0
 0
+TB6612FNG_THT
+TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+16
+16
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu
