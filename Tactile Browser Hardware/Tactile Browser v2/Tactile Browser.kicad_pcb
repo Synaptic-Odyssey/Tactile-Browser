@@ -218,7 +218,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "0139ab81-ae78-4dc9-bab9-2b66cd856858")
-		(at 130.1725 88.545 90)
+		(at 123.6725 88.545 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid11"
@@ -586,7 +586,7 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "024947a6-f3a1-4fc0-ac4a-081dee040fc0")
-		(at 119.1 39.25)
+		(at 112.6 39.25)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW3"
@@ -1012,7 +1012,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "0a05001a-cfa8-44fb-a08b-0002d0868da2")
-		(at 86.5 123.46)
+		(at 80.5 122.46)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver8"
@@ -2064,7 +2064,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "1503c724-ae05-421e-9926-049268f66aef")
-		(at 95.79 79.615)
+		(at 90.29 79.115)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver5"
@@ -3116,7 +3116,7 @@
 	(footprint "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "234a1033-650c-4f5d-83bb-72686fc0e0af")
-		(at 83 144 180)
+		(at 44.5 143 180)
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "5V_logic_rail1"
@@ -4953,11 +4953,11 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "2d55c74d-df39-4fed-9877-d999f57a4ef9")
-		(at 130.1725 100.045 90)
+		(at 123.6725 100.045 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid12"
-			(at 2.6725 -3.955 90)
+			(at 2.6725 -4.1725 90)
 			(layer "F.SilkS")
 			(uuid "d7320d70-d559-4cff-a1ab-b9cf742cb8da")
 			(effects
@@ -5321,11 +5321,11 @@
 	(footprint "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
 		(layer "F.Cu")
 		(uuid "2e5f2b89-7840-4d47-9266-65b4ba75c04f")
-		(at 126.5 143.3675)
+		(at 120.5 143.3675)
 		(descr "Terminal block Altech AK100, 2 pins, pitch 5mm, size 10x9mm, drill diameter 1.3mm, pad diameter 3mm, https://www.altechcorp.com/PDFS/PCBMETRC.PDF#page=3, generated with kicad-footprint-generator TerminalBlock_Altech")
 		(tags "THT Terminal block Altech AK100 pitch 5mm size 10x9mm drill 1.3mm pad 3mm")
 		(property "Reference" "12V_supply1"
-			(at 2.5 -6.12 0)
+			(at 2.5 3.1325 0)
 			(layer "F.SilkS")
 			(uuid "d270ec20-c62f-476d-961c-bf4af70be374")
 			(effects
@@ -5693,13 +5693,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "351bfdb6-cee4-471f-a54b-dac25b69776f")
-		(at 122.5 43.5 -90)
+		(at 116 43.5 -90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "09987a7b-fc2a-4be9-8457-3338e66ca1fd")
+			(uuid "7affa988-97a8-4acf-aaca-2097739f4904")
 			(effects
 				(font
 					(size 1 1)
@@ -5711,7 +5711,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "344d0f8a-520e-45dc-8201-059bae5f353d")
+			(uuid "1a06f4a9-8a12-4268-a0c1-6abd48e01df0")
 			(effects
 				(font
 					(size 1 1)
@@ -5724,7 +5724,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2a67d9f2-68e1-4b52-8b74-eed40d8d0565")
+			(uuid "14652cf2-a69f-404c-8539-ec4d3a34c0ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5737,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5f4f7b30-23e4-420f-9e27-8a3f13999afa")
+			(uuid "7965da6a-a712-4449-8e67-40c656d0929f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6003,13 +6003,13 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "3d28bc92-493d-4c93-9caa-2a407ff42331")
-		(at 119 57.5)
+		(at 112.5 57.5)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW6"
 			(at 0.1 -3.25 0)
 			(layer "F.SilkS")
-			(uuid "52d2f613-34db-40d3-8a42-e935bf695463")
+			(uuid "e2ee68fa-f7e3-4e12-abae-ca6c1c6ca73a")
 			(effects
 				(font
 					(size 1 1)
@@ -6021,7 +6021,7 @@
 			(at 0 4.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4835a3ee-f5e0-4784-89e0-2ce7499b5055")
+			(uuid "a8c76d26-b849-44f8-934c-78147b9a484c")
 			(effects
 				(font
 					(size 1 1)
@@ -6033,7 +6033,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5911e503-eb97-4f02-b5a0-879495e13d0e")
+			(uuid "cb5fd2e2-9e99-4f2e-9f9b-1d4804f0a76f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6045,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c0fa83f-4305-47b8-b8e5-31aff767787e")
+			(uuid "e3e80d29-c1cd-432c-b1ea-d38e4509877a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6739,7 +6739,7 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5810767d-68ff-4086-8c84-be348345ba90")
-		(at 119.5 122 180)
+		(at 112 122 180)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW17"
@@ -7901,13 +7901,13 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5d6f82af-ea03-486a-9cae-fc9f93e1d436")
-		(at 118.9 47.75 180)
+		(at 112.4 47.75 180)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW5"
 			(at -0.1 -3.25 0)
 			(layer "F.SilkS")
-			(uuid "35a7c6c4-0de0-4e7c-bc84-d062d7a71184")
+			(uuid "bfc81b1b-a403-4f52-b975-0b41f78aa23b")
 			(effects
 				(font
 					(size 1 1)
@@ -7919,7 +7919,7 @@
 			(at 0 4.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e9175548-85cd-4cd3-afaf-d18fcd71b08a")
+			(uuid "5f398089-b5d2-42c5-b34f-e6f3d7d20bc4")
 			(effects
 				(font
 					(size 1 1)
@@ -7931,7 +7931,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0fd2e77-017d-4fce-8a66-123559dec265")
+			(uuid "28da1c3e-9ec6-4ab6-a979-8a2d8121acee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +7943,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9ac5af1e-7b56-4b2f-8867-c8187b4a95fb")
+			(uuid "2cfbd777-a876-4edf-be72-385f4cfcf8b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8327,13 +8327,13 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "60b00152-28e6-4e4f-aff5-edfc8bd966f5")
-		(at 119 65.5 180)
+		(at 112.5 65.5 180)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW9"
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "8e124949-70a8-42d7-afa4-34a3658a801e")
+			(uuid "36b3f8ca-6d91-494d-a658-fdafc2fb705e")
 			(effects
 				(font
 					(size 1 1)
@@ -8345,7 +8345,7 @@
 			(at 0 4.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9e1631d1-e4c3-47aa-99e4-50a27aabca3d")
+			(uuid "42e8a063-d9e4-4e24-a9ce-f729812d8fd1")
 			(effects
 				(font
 					(size 1 1)
@@ -8357,7 +8357,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fed0e78c-e80e-44cf-aa7f-ec8d16d55c6c")
+			(uuid "9ce4c385-975e-4adc-8248-eabd678ed640")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8369,7 +8369,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4111935b-8d15-49fb-9305-70004c4b6053")
+			(uuid "858cf8ef-4e0c-499c-9c94-01ef1a50049f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9127,13 +9127,13 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "6e536106-ea4a-455c-b1e5-b77597972abd")
-		(at 119 104.5 180)
+		(at 112.5 104.5 180)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW12"
 			(at 0 -3.25 0)
 			(layer "F.SilkS")
-			(uuid "37f724f5-002b-4f2a-bc7e-292732a203e5")
+			(uuid "d2cf4a04-3677-41fd-9fcc-7965de72856b")
 			(effects
 				(font
 					(size 1 1)
@@ -9145,7 +9145,7 @@
 			(at 0 4.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7c6627b5-81e8-484b-9366-ebd4f775cdf4")
+			(uuid "9cbd0e39-7b20-4cd0-abc3-dafd82dc25fd")
 			(effects
 				(font
 					(size 1 1)
@@ -9157,7 +9157,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "21ee537b-26c0-4508-9361-fc7d6deece84")
+			(uuid "4a432fd7-b6d1-477a-bc85-fe50039e07ec")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9169,7 +9169,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "885bdba9-2f45-4fb8-9df0-f5e9b4129cf6")
+			(uuid "237ff3d5-b702-4723-849d-105980630a29")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9553,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "6fe8223d-4968-43fa-9fef-d0bb9ab86a23")
-		(at 81.5 35.76)
+		(at 78.5 35.8)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "IO_1"
@@ -9923,7 +9923,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "74d85d03-0f9b-451e-985c-211291931aaa")
-		(at 105.79 129.46)
+		(at 99.79 128.615)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver7"
@@ -10723,13 +10723,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "789ff49c-075a-4add-9194-4c8b10f7fd16")
-		(at 115.5 61.5 -90)
+		(at 109 61.5 -90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D9"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "57f22be1-6a2a-4f61-8f77-ee6cea3b19de")
+			(uuid "438896cb-b617-4501-958a-ccd628281719")
 			(effects
 				(font
 					(size 1 1)
@@ -10741,7 +10741,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f40ca271-7392-4b22-9593-543dcf378c7c")
+			(uuid "67142695-b6d8-46dd-84d4-800a41143076")
 			(effects
 				(font
 					(size 1 1)
@@ -10754,7 +10754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "549e959a-e0a1-4425-ba81-51ee314c9083")
+			(uuid "b152b9bb-79bc-4201-aa93-3a812fd1703e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,7 +10767,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b6501922-cfb9-4ce0-91fe-eb16324b260b")
+			(uuid "e83d46ec-677c-444e-a4fc-988f8980cb93")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11033,7 +11033,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "7c500293-6a4b-45d4-8142-8ea76ab73771")
-		(at 96.29 36.115)
+		(at 89.29 35.615)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver2"
@@ -11407,7 +11407,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "7c9c42f0-d3ce-4dcf-81bc-d03b92a40b43")
-		(at 60.79 57.615)
+		(at 60.5 57.615)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver4"
@@ -11781,13 +11781,13 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "7e0d2deb-0a41-498f-abeb-bf2c4d0ffb3b")
-		(at 130 42.5 90)
+		(at 123.6725 42.545 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid3"
-			(at 2.54 -3.6725 90)
+			(at 2 -4 90)
 			(layer "F.SilkS")
-			(uuid "fff9428c-dc70-4950-8bf5-259588072760")
+			(uuid "ac9fb9de-cee0-4d93-b873-9d86307b5695")
 			(effects
 				(font
 					(size 1 1)
@@ -11799,7 +11799,7 @@
 			(at 2.54 5.72 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b624c12b-f05b-4a9c-8920-6fa4af87df59")
+			(uuid "837af781-6f4d-4986-a8ba-b7b843b96058")
 			(effects
 				(font
 					(size 1 1)
@@ -11811,7 +11811,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2ee61508-c2b3-454c-b576-f60219a31795")
+			(uuid "9bd43161-6ab2-4a70-a9a1-a3b2f99f5841")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11823,7 +11823,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8a67082a-37ba-4fd2-a129-70854dea777d")
+			(uuid "0bb689da-9428-4822-831b-f294c7e250d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12149,11 +12149,11 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "81c95374-aeeb-4ae1-a68a-4d3b62e122dd")
-		(at 130 54 90)
+		(at 123.6725 54.045 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid5"
-			(at 2.545 -4.1725 90)
+			(at 2.545 -4 90)
 			(layer "F.SilkS")
 			(uuid "a8ef4bca-e380-4355-bfaf-3e293532e44e")
 			(effects
@@ -12517,11 +12517,11 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "82b1653f-bc00-4737-8e49-fea225211f6d")
-		(at 130 111.5 90)
+		(at 123.6725 111.545 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid15"
-			(at 2.54 -4 90)
+			(at 2 -4 90)
 			(layer "F.SilkS")
 			(uuid "8d04e1bf-4a54-424a-b215-2552187198f8")
 			(effects
@@ -13311,13 +13311,13 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "8a2be2f6-1964-4b32-9b20-4b44c842c2d7")
-		(at 119.4 114.25)
+		(at 112.4 114.25)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW15"
 			(at 0 -3.25 0)
 			(layer "F.SilkS")
-			(uuid "ca884174-c0cb-4120-b8dc-52dad5378c64")
+			(uuid "30ba7675-4146-478d-8399-45da8b0517ec")
 			(effects
 				(font
 					(size 1 1)
@@ -13329,7 +13329,7 @@
 			(at 0 4.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8aa658d5-00c6-456e-93f6-6c11555f0680")
+			(uuid "462644eb-976f-47db-85f3-8e140f0c6f8b")
 			(effects
 				(font
 					(size 1 1)
@@ -13341,7 +13341,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4820663-a232-4559-bfad-42d5b9985d7c")
+			(uuid "45e4efce-0246-4215-8446-0ba0249b94cb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13353,7 +13353,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "efbca537-8c43-420c-bd60-4b7b517f3029")
+			(uuid "d0394357-0dac-4ce2-ba61-1dab7810f195")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13737,11 +13737,11 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8c759add-6829-4469-b15f-2e605fca1793")
-		(at 130 65.5 90)
+		(at 123.6725 65.545 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid6"
-			(at 2.545 -3.5 90)
+			(at 2 -4 90)
 			(layer "F.SilkS")
 			(uuid "c08a3803-1c65-43eb-ae20-469763fc82e5")
 			(effects
@@ -14531,7 +14531,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "92f5e00b-b16c-4594-9568-3acd7a39eca1")
-		(at 60.79 36.115)
+		(at 59.79 36.115)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver1"
@@ -15331,7 +15331,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "9b869bbd-de9c-49d6-9214-69e0a7576690")
-		(at 61.29 79.615)
+		(at 61 79.5)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver9"
@@ -16383,13 +16383,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a3aaa262-4aac-4b09-b1ea-64eba864b734")
-		(at 115.5 118 -90)
+		(at 108.5 118 -90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "04703578-b855-4186-a2e4-005c8a278684")
+			(uuid "89001de2-b1ad-4eb9-a381-5f08fe5040f2")
 			(effects
 				(font
 					(size 1 1)
@@ -16401,7 +16401,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcb7af5a-40f3-415c-b2d2-1f2d7f1d774a")
+			(uuid "29b9eff3-2c3e-46a4-8168-ca67e1c99e63")
 			(effects
 				(font
 					(size 1 1)
@@ -16414,7 +16414,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ac6e3d72-5da5-4dbb-a172-3ceee73ea459")
+			(uuid "63057cae-c9b5-4948-ad1f-1676f2b3c911")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16427,7 +16427,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dcdd81ea-65ac-417b-91ef-888447748314")
+			(uuid "35d1c4cd-960e-4a00-b908-e4d5e1ecd6d3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18281,7 +18281,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "b1ce45ab-dd0e-4524-baa4-22b1ad75de33")
-		(at 82 78.38)
+		(at 79.695 79.11)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "IO_5"
@@ -18651,7 +18651,7 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "b3544008-514a-437d-9da2-92cd37c6eb6b")
-		(at 81.695 57.11)
+		(at 79.195 57.61)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "IO_4"
@@ -19699,11 +19699,11 @@
 	(footprint "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "bb1d44bb-ac9b-443d-9061-98f0b2ab6649")
-		(at 39.5 142.5)
+		(at 88.2175 146.775 90)
 		(descr "Terminal Block Xinya XY308-2.54-2P, 2 pins, pitch 2.54mm, size 5.58x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Xinya")
 		(tags "THT Terminal Block Xinya XY308-2.54-2P pitch 2.54mm size 5.58x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "I2C_bus1"
-			(at 2 -2.5 0)
+			(at 2 -2.5 90)
 			(layer "F.SilkS")
 			(uuid "e77a1cd7-26b4-4d47-9319-699f9bb9fc5b")
 			(effects
@@ -19714,7 +19714,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 1.27 4.52 0)
+			(at 1.27 4.52 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8d2b3b1e-d8ec-4b32-b2ef-64458716a059")
@@ -19726,7 +19726,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9479d9f1-c85b-412f-a5ae-51f71e06e672")
@@ -19738,7 +19738,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d358f127-17a7-4045-930f-ac731fe90379")
@@ -19754,6 +19754,16 @@
 		(sheetname "/")
 		(sheetfile "Tactile Browser.kicad_sch")
 		(attr through_hole)
+		(fp_line
+			(start 4.18 -3.22)
+			(end 4.18 3.52)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "7f40a9f2-a850-4776-a2af-6cc734435276")
+		)
 		(fp_line
 			(start -1.64 -3.22)
 			(end 4.18 -3.22)
@@ -19795,14 +19805,14 @@
 			(uuid "1f825d87-f515-4607-9a7a-5bd20a13d238")
 		)
 		(fp_line
-			(start -1.64 3.52)
-			(end -1.64 -3.22)
+			(start 4.18 3.52)
+			(end 0.3 3.52)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "253424f8-3bbe-4893-84e9-ae3b405b63cc")
+			(uuid "adb4310d-5866-48ba-858d-96025c92e262")
 		)
 		(fp_line
 			(start -0.3 3.52)
@@ -19815,24 +19825,14 @@
 			(uuid "d2a1e942-d485-40c3-aed2-d2cec7a91e3e")
 		)
 		(fp_line
-			(start 4.18 -3.22)
-			(end 4.18 3.52)
+			(start -1.64 3.52)
+			(end -1.64 -3.22)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7f40a9f2-a850-4776-a2af-6cc734435276")
-		)
-		(fp_line
-			(start 4.18 3.52)
-			(end 0.3 3.52)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "adb4310d-5866-48ba-858d-96025c92e262")
+			(uuid "253424f8-3bbe-4893-84e9-ae3b405b63cc")
 		)
 		(fp_poly
 			(pts
@@ -19847,6 +19847,16 @@
 			(uuid "5207fa30-4c26-4deb-970f-f67d82ff3a45")
 		)
 		(fp_line
+			(start 4.57 -3.6)
+			(end -2.02 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfc7e101-d81b-4031-9b84-39593febd802")
+		)
+		(fp_line
 			(start -2.02 -3.6)
 			(end -2.02 3.9)
 			(stroke
@@ -19855,6 +19865,16 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "9f30d0d2-d829-4f28-a5c9-4dc66bd29523")
+		)
+		(fp_line
+			(start 4.57 3.9)
+			(end 4.57 -3.6)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d8bd2366-6708-4e00-925d-f500673109ae")
 		)
 		(fp_line
 			(start -2.02 3.9)
@@ -19867,24 +19887,14 @@
 			(uuid "15c23b17-eedb-4a01-bb97-11aa98b766dd")
 		)
 		(fp_line
-			(start 4.57 -3.6)
-			(end -2.02 -3.6)
+			(start 4.06 -3.1)
+			(end 4.06 3.4)
 			(stroke
-				(width 0.05)
+				(width 0.1)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "bfc7e101-d81b-4031-9b84-39593febd802")
-		)
-		(fp_line
-			(start 4.57 3.9)
-			(end 4.57 -3.6)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d8bd2366-6708-4e00-925d-f500673109ae")
+			(layer "F.Fab")
+			(uuid "67ef129a-44e4-4d42-80b6-50e7cd061758")
 		)
 		(fp_line
 			(start -1.52 -3.1)
@@ -19905,6 +19915,46 @@
 			)
 			(layer "F.Fab")
 			(uuid "1092e4ba-5435-4202-9758-795e5af4e3b8")
+		)
+		(fp_line
+			(start 3.176 -0.758)
+			(end 1.782 0.636)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "592d8bce-de13-4dfb-929e-3755896dfc44")
+		)
+		(fp_line
+			(start 0.636 -0.758)
+			(end -0.758 0.636)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7a67c0b3-e80e-49cd-b13f-27d0826fa946")
+		)
+		(fp_line
+			(start 3.298 -0.636)
+			(end 1.904 0.758)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "203b592d-241d-4943-a74d-c27bd85f6fcb")
+		)
+		(fp_line
+			(start 0.758 -0.636)
+			(end -0.636 0.758)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "16ca4272-79a6-4637-9a42-33e4f63d9be6")
 		)
 		(fp_line
 			(start -1.52 1.6)
@@ -19937,66 +19987,6 @@
 			(uuid "4b5b8d44-6fdd-4a27-b12b-41009dc46b41")
 		)
 		(fp_line
-			(start -0.72 3.4)
-			(end -1.52 2.6)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "2ee3b727-0213-45fa-b4a9-8f44f567086c")
-		)
-		(fp_line
-			(start 0.636 -0.758)
-			(end -0.758 0.636)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "7a67c0b3-e80e-49cd-b13f-27d0826fa946")
-		)
-		(fp_line
-			(start 0.758 -0.636)
-			(end -0.636 0.758)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "16ca4272-79a6-4637-9a42-33e4f63d9be6")
-		)
-		(fp_line
-			(start 3.176 -0.758)
-			(end 1.782 0.636)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "592d8bce-de13-4dfb-929e-3755896dfc44")
-		)
-		(fp_line
-			(start 3.298 -0.636)
-			(end 1.904 0.758)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "203b592d-241d-4943-a74d-c27bd85f6fcb")
-		)
-		(fp_line
-			(start 4.06 -3.1)
-			(end 4.06 3.4)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "67ef129a-44e4-4d42-80b6-50e7cd061758")
-		)
-		(fp_line
 			(start 4.06 3.4)
 			(end -0.72 3.4)
 			(stroke
@@ -20006,16 +19996,15 @@
 			(layer "F.Fab")
 			(uuid "eb581ae2-97a0-4d87-a257-5b852a7acc52")
 		)
-		(fp_circle
-			(center 0 0)
-			(end 1 0)
+		(fp_line
+			(start -0.72 3.4)
+			(end -1.52 2.6)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
-			(fill no)
 			(layer "F.Fab")
-			(uuid "4f411a4a-0da9-4d17-b4f1-dd2eac35cb90")
+			(uuid "2ee3b727-0213-45fa-b4a9-8f44f567086c")
 		)
 		(fp_circle
 			(center 2.54 0)
@@ -20028,8 +20017,19 @@
 			(layer "F.Fab")
 			(uuid "4dde30f9-afbd-4435-ac68-a40e0d46e3f1")
 		)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "4f411a4a-0da9-4d17-b4f1-dd2eac35cb90")
+		)
 		(pad "1" thru_hole roundrect
-			(at 0 0)
+			(at 0 0 90)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -20041,7 +20041,7 @@
 			(uuid "874790b6-6996-4a22-a580-d59407254513")
 		)
 		(pad "2" thru_hole circle
-			(at 2.54 0)
+			(at 2.54 0 90)
 			(size 2 2)
 			(drill 1.2)
 			(layers "*.Cu" "*.Mask")
@@ -20803,7 +20803,7 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c3dcbeda-1f4a-436c-b964-84953d609130")
-		(at 130.1725 134.545 90)
+		(at 123.6725 134.545 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid18"
@@ -21171,11 +21171,11 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "cb0737a5-e4fc-438d-963c-813d20bdb893")
-		(at 130.1725 123.045 90)
+		(at 123.6725 123.045 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid17"
-			(at 2.54 -4 90)
+			(at 2.54 -3.6725 90)
 			(layer "F.SilkS")
 			(uuid "e79e28e3-8158-47f1-9d82-51956e0b8959")
 			(effects
@@ -21907,13 +21907,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d5cff319-9ebe-40d2-a94e-4d0824933e02")
-		(at 123 118 90)
+		(at 116 118 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D15"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "9690a94a-c60f-4563-9c18-1a63c231904b")
+			(uuid "8ba1d8e0-4738-4cc8-a968-28a12c5985e9")
 			(effects
 				(font
 					(size 1 1)
@@ -21925,7 +21925,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20588205-ce7e-4318-9715-08280a2346cb")
+			(uuid "2229390f-e6b2-4312-9178-42507fc347e5")
 			(effects
 				(font
 					(size 1 1)
@@ -21938,7 +21938,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f2b059b4-9878-411a-939f-9e5f3a7d4b50")
+			(uuid "ea1e8300-8f08-41f4-b3c2-b17e4e3f50cd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21951,7 +21951,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c24d6d1d-872b-49cb-8833-04a28be38dab")
+			(uuid "81521fb6-605a-4a11-b31e-dadff7fd416e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22217,7 +22217,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "d9aa5663-b90c-4ad4-8ace-2130da8f7e8a")
-		(at 96.29 57.615)
+		(at 89.79 57.615)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver3"
@@ -23326,11 +23326,11 @@
 	(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "dad70a69-7dfd-4c18-866e-5c4c432e71fa")
-		(at 129.6725 77.045 90)
+		(at 123.6725 77.045 90)
 		(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Phoenix")
 		(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
 		(property "Reference" "Solenoid9"
-			(at 2.54 -4.1725 90)
+			(at 2.54 -3.6725 90)
 			(layer "F.SilkS")
 			(uuid "f49f79de-05d5-41b7-9f29-f27540acc68d")
 			(effects
@@ -23694,13 +23694,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "dc4995f6-3da0-46f7-8460-c28fafcd2830")
-		(at 115.5 43.5 -90)
+		(at 109 43.5 -90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "afbad477-3825-4a3b-9462-d8e60ebbb6f7")
+			(uuid "5dd31705-2175-4d27-a717-8f39295bfa25")
 			(effects
 				(font
 					(size 1 1)
@@ -23712,7 +23712,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "02ce385e-4ff2-4603-a2b9-93a7c8853eb5")
+			(uuid "e922870d-2dfd-4400-9fd4-a94ca021da2f")
 			(effects
 				(font
 					(size 1 1)
@@ -23725,7 +23725,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc674e2c-2e40-437b-a1f3-1c0623f0aa5d")
+			(uuid "9ce5d8a6-6975-43ef-b0c0-32953cadb227")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23738,7 +23738,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cd95c07-2844-44da-8013-6c69057675e8")
+			(uuid "0f193eed-621e-4ff3-9f9d-06d744eda42c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24004,13 +24004,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "dd7dcb41-e897-4aa5-9ad5-4a7466d32afe")
-		(at 122.5 100.5 -90)
+		(at 116 100.5 -90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D11"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "f441e821-81ab-4050-b0ca-1e81733a8a22")
+			(uuid "b1ad5f37-f28b-4079-9a5d-6d0546dd38c5")
 			(effects
 				(font
 					(size 1 1)
@@ -24022,7 +24022,7 @@
 			(at 0 2.1 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dd8bb1d-07b8-4fb4-92c3-96ab08195aec")
+			(uuid "f2dd656d-5314-4170-b45b-42d1fb066eb3")
 			(effects
 				(font
 					(size 1 1)
@@ -24035,7 +24035,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4387560-cfca-4695-aa99-b15bf973eac0")
+			(uuid "5e7e67d1-c542-4cf1-b592-b418798c65d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24048,7 +24048,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "71d27367-dfc8-44eb-8f07-b59db34036b5")
+			(uuid "7055f166-11a6-43af-b012-5878983be786")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24314,13 +24314,13 @@
 	(footprint "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 		(layer "F.Cu")
 		(uuid "df06101a-2566-4bcc-8582-2bd2d0c56550")
-		(at 119 96.5)
+		(at 112.5 96.5)
 		(descr "JST PH series connector, B2B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST PH vertical")
 		(property "Reference" "SW11"
 			(at 0 -3.5 0)
 			(layer "F.SilkS")
-			(uuid "d692d893-4cb8-456e-a89a-623fd036b18a")
+			(uuid "2b86bb88-bd15-48cd-a428-541971f457ac")
 			(effects
 				(font
 					(size 1 1)
@@ -24332,7 +24332,7 @@
 			(at 0 4.45 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a08bb20-cb72-4d13-b519-4b165a65588c")
+			(uuid "386e1856-4939-4b69-95f1-cff00e698d7b")
 			(effects
 				(font
 					(size 1 1)
@@ -24344,7 +24344,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "87168fb6-f97b-4c85-9f88-84aca2d9d1da")
+			(uuid "7eaed36f-1167-46f7-9bf7-0c83bc7d0eb6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24356,7 +24356,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d5ff4d2-ccfa-4301-8f15-4070c32b708a")
+			(uuid "e6243f2e-30e7-475a-a8f1-6576631063c5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25476,13 +25476,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ed08cd26-e8ea-437a-a445-d12b158f3e7a")
-		(at 122.5 61.5 90)
+		(at 116 61.5 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "d9167557-d42c-4377-b0fd-fcd596075cfe")
+			(uuid "9b84a9de-90db-49ea-9d8a-257ff2a5b186")
 			(effects
 				(font
 					(size 1 1)
@@ -25494,7 +25494,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fd86de9-ed92-4a56-9f95-1961618017ad")
+			(uuid "09317129-04f9-4e39-a12b-b036382741d2")
 			(effects
 				(font
 					(size 1 1)
@@ -25507,7 +25507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "42caf3a1-a16a-450c-ac17-82d386565ef6")
+			(uuid "2483b2c2-a0c9-44d6-a13d-1369b4560dd1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25520,7 +25520,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28f13aa2-d7d5-4bdf-bfa8-537f2e2453e8")
+			(uuid "753b73ab-7374-43d9-bedc-f19ed75797a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25786,7 +25786,7 @@
 	(footprint "TB6612FNG_THT:TB6612FNG_DualPinHeader_1x8x2_P2.54mm_Row15.24mm_THT"
 		(layer "F.Cu")
 		(uuid "ed14709f-c6bb-4e00-89cf-c648c53cc7c1")
-		(at 96.29 101.615)
+		(at 80.5 100.96)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
 		(property "Reference" "Driver10"
@@ -26529,13 +26529,13 @@
 	(footprint "Package_DIP:DIP-16_W7.62mm"
 		(layer "F.Cu")
 		(uuid "f831548d-5c2f-4a66-a673-493d2c0357ee")
-		(at 115.195 72.11)
+		(at 108.695 72.11)
 		(descr "16-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "IO_3"
 			(at 4.62 1.54 0)
 			(layer "F.SilkS")
-			(uuid "74a8602d-7fd1-4bc9-820d-e54132f65100")
+			(uuid "ebc62841-de58-43ad-b894-af59680d0420")
 			(effects
 				(font
 					(size 1 1)
@@ -26547,7 +26547,7 @@
 			(at 3.81 20.11 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b5c27c8-7ef7-4219-81b1-69606b2b3739")
+			(uuid "887788ef-8386-4299-bad9-c1ef496a3e23")
 			(effects
 				(font
 					(size 1 1)
@@ -26559,7 +26559,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4833280c-bd0e-4b2e-a341-1716fdfe7871")
+			(uuid "42e2d21e-fe3a-40a3-8fe9-235a7d78b311")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26571,7 +26571,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5ebd2e8a-11c9-4bb7-a1a9-466557937a29")
+			(uuid "766923d0-8b52-45b4-8e3d-2b657a8ad6ab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26899,13 +26899,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "feb635bd-a6f2-4482-9957-c6b2df496097")
-		(at 115.5 100.65 -90)
+		(at 109 100.65 -90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "b526ae38-f020-408c-b2f2-56507dfc8a9d")
+			(uuid "8e1247ef-16c2-4bed-9d1e-943f2f0b8c2b")
 			(effects
 				(font
 					(size 1 1)
@@ -26917,7 +26917,7 @@
 			(at 0 2.1 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b7afeaa-6055-4ca8-8c22-7526ede8ab39")
+			(uuid "5edaddcc-efcb-4d39-baa6-68513d591aa2")
 			(effects
 				(font
 					(size 1 1)
@@ -26930,7 +26930,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3820ca58-29b1-42f8-ae97-50e3c070f7a6")
+			(uuid "0268c4b1-0a8b-448e-a246-7a07c1ef618c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26943,7 +26943,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1efe3ca8-c574-410c-939b-951af60d44f1")
+			(uuid "1a55bc4a-afc6-4cb7-94e2-e9ef4c410046")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27517,8 +27517,8 @@
 		)
 	)
 	(gr_rect
-		(start 37 34)
-		(end 135.5 148.5)
+		(start 36.5 34)
+		(end 128.5 149)
 		(stroke
 			(width 0.05)
 			(type default)
