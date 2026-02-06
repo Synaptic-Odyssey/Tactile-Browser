@@ -660,210 +660,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x03_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_Pin_1_1"
-				(rectangle
-					(start 0.8636 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 2.54) (xy 0.8636 2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -7336,16 +7132,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 140.97 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afb8152c-52c8-4903-aad8-423f54f2e3c2")
-	)
-	(wire
-		(pts
 			(xy 426.72 68.58) (xy 426.72 74.93)
 		)
 		(stroke
@@ -7486,16 +7272,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 72.39) (xy 146.05 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7c3e73a-1f0c-4cb4-aff2-65c51b1f15a6")
-	)
-	(wire
-		(pts
 			(xy 448.31 86.36) (xy 448.31 68.58)
 		)
 		(stroke
@@ -7503,16 +7279,6 @@
 			(type default)
 		)
 		(uuid "e85c1345-2f5c-44d3-ab24-721a13a0955e")
-	)
-	(wire
-		(pts
-			(xy 143.51 72.39) (xy 143.51 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8e111d2-d3c6-4caf-97b8-3d3b12a67b04")
 	)
 	(wire
 		(pts
@@ -8708,6 +8474,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 252.73 344.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "201a3f82-e6e6-4aac-b1c0-b44cd07e9915")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 247.4467 344.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S7_out2"
 		(shape input)
 		(at 439.42 273.05 0)
@@ -8906,28 +8694,6 @@
 			)
 		)
 	)
-	(global_label "CLOCK"
-		(shape input)
-		(at 146.05 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "28ed0b65-61e0-4bc5-9c27-82590da98663")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 82.8138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "S17_in2"
 		(shape input)
 		(at 273.05 339.09 0)
@@ -8963,6 +8729,28 @@
 		(uuid "2a5d245e-00e6-4f57-b320-b937d06d1f44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 399.6049 285.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DATA"
+		(shape input)
+		(at 250.19 240.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2c2e4281-7ede-4514-ba8b-427e36df02af")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.79 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9962,6 +9750,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 273.05 298.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5868cc65-7131-4dde-a27f-2c5e19784c86")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.7667 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V"
 		(shape input)
 		(at 353.06 250.19 90)
@@ -10371,28 +10181,6 @@
 		(uuid "607f6937-e47b-41f9-936d-b94a7911d15d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 127 309.1157 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DATA"
-		(shape input)
-		(at 143.51 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "62d537fc-5daf-4096-8b36-d214812a6b50")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.51 81.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10908,28 +10696,6 @@
 			)
 		)
 	)
-	(global_label "LATCH"
-		(shape input)
-		(at 140.97 73.66 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "7278176a-90e8-42b0-9408-e03160b243c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.97 82.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "S7_in1"
 		(shape input)
 		(at 295.91 156.21 0)
@@ -10948,6 +10714,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 226.06 298.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73c8658d-fef9-4947-912a-07e209d8cef8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.7767 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11190,6 +10978,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LATCH"
+		(shape input)
+		(at 250.19 237.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "815821b8-8b4b-4986-82a0-92ff09578ead")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.52 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11801,6 +11611,28 @@
 		(uuid "a65ede91-d4ee-44cf-bbf0-25652af2a3cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 399.605 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 275.59 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a66ef448-2bd5-4e06-ac14-97036f2c6c24")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 270.3067 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13812,6 +13644,28 @@
 			)
 		)
 	)
+	(global_label "CLOCK"
+		(shape input)
+		(at 250.19 245.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0eadae3-6e16-4734-82bc-d51595a804ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 241.0362 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "S3_out2"
 		(shape input)
 		(at 488.95 237.49 180)
@@ -14346,7 +14200,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 492.76 251.46 0)
 			(effects
 				(font
@@ -14416,7 +14270,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 491.49 278.13 0)
 			(effects
 				(font
@@ -14486,7 +14340,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 492.76 288.29 0)
 			(effects
 				(font
@@ -14556,7 +14410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 53.34 248.92 0)
 			(effects
 				(font
@@ -14623,7 +14477,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 52.07 284.48 0)
 			(effects
 				(font
@@ -14787,7 +14641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c44b9e3-9c17-4b8c-b6db-fc66ed00fff3")
-		(property "Reference" "D11"
+		(property "Reference" "D15"
 			(at 430.53 80.01 0)
 			(effects
 				(font
@@ -14803,7 +14657,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 430.53 86.36 0)
 			(effects
 				(font
@@ -14857,7 +14711,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D11")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -14891,7 +14745,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 53.34 270.51 0)
 			(effects
 				(font
@@ -14961,7 +14815,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 492.76 299.72 0)
 			(effects
 				(font
@@ -15029,7 +14883,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 406.4 48.26 0)
 			(effects
 				(font
@@ -15099,7 +14953,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30e87709-8d0f-4178-9034-c141182c0be7")
-		(property "Reference" "D9"
+		(property "Reference" "D10"
 			(at 454.66 62.23 0)
 			(effects
 				(font
@@ -15115,7 +14969,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 454.66 68.58 0)
 			(effects
 				(font
@@ -15169,7 +15023,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D9")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -15322,7 +15176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "348b5c51-9647-4fa4-b386-bf76cef33116")
-		(property "Reference" "D13"
+		(property "Reference" "D17"
 			(at 476.25 80.01 0)
 			(effects
 				(font
@@ -15338,7 +15192,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 476.25 86.36 0)
 			(effects
 				(font
@@ -15392,7 +15246,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D13")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -15424,7 +15278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 441.96 81.28 0)
 			(effects
 				(font
@@ -15758,7 +15612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 53.34 327.66 0)
 			(effects
 				(font
@@ -15826,7 +15680,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 393.7 43.18 0)
 			(effects
 				(font
@@ -15896,7 +15750,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 54.61 259.08 0)
 			(effects
 				(font
@@ -15964,7 +15818,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 394.97 63.5 0)
 			(effects
 				(font
@@ -16032,7 +15886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 515.62 63.5 0)
 			(effects
 				(font
@@ -16084,7 +15938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "541dd3de-c3b2-4a72-9821-ae3886389ec9")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 407.67 62.23 0)
 			(effects
 				(font
@@ -16100,7 +15954,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 407.67 68.58 0)
 			(effects
 				(font
@@ -16154,7 +16008,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -16188,7 +16042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 491.49 218.44 0)
 			(effects
 				(font
@@ -16239,7 +16093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "57191f0b-c5d3-4e61-921f-03c318b7c2d3")
-		(property "Reference" "D19"
+		(property "Reference" "D6"
 			(at 502.92 41.91 0)
 			(effects
 				(font
@@ -16255,7 +16109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 502.92 48.26 0)
 			(effects
 				(font
@@ -16309,7 +16163,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D19")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -16480,7 +16334,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 53.34 293.37 0)
 			(effects
 				(font
@@ -16644,7 +16498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fffedbd-b098-4b67-ae71-dbde007bc3db")
-		(property "Reference" "D10"
+		(property "Reference" "D14"
 			(at 407.67 80.01 0)
 			(effects
 				(font
@@ -16660,7 +16514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 407.67 86.36 0)
 			(effects
 				(font
@@ -16714,7 +16568,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D10")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -16730,7 +16584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6019c2e7-0dda-4d38-b347-91c35e33edd2")
-		(property "Reference" "D6"
+		(property "Reference" "D7"
 			(at 383.54 62.23 0)
 			(effects
 				(font
@@ -16746,7 +16600,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 383.54 68.58 0)
 			(effects
 				(font
@@ -16800,7 +16654,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D6")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -16834,7 +16688,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 54.61 303.53 0)
 			(effects
 				(font
@@ -16904,7 +16758,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 492.76 228.6 0)
 			(effects
 				(font
@@ -16974,7 +16828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 491.49 312.42 0)
 			(effects
 				(font
@@ -17042,7 +16896,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 487.68 63.5 0)
 			(effects
 				(font
@@ -17180,7 +17034,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 464.82 63.5 0)
 			(effects
 				(font
@@ -17360,7 +17214,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 464.82 43.18 0)
 			(effects
 				(font
@@ -17565,7 +17419,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 417.83 43.18 0)
 			(effects
 				(font
@@ -17633,7 +17487,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 441.96 43.18 0)
 			(effects
 				(font
@@ -17838,7 +17692,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 476.25 48.26 0)
 			(effects
 				(font
@@ -17924,7 +17778,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 464.82 81.28 0)
 			(effects
 				(font
@@ -17994,7 +17848,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 492.76 322.58 0)
 			(effects
 				(font
@@ -18183,7 +18037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08a1523-585b-4ca3-b225-abbcc1a85096")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 430.53 62.23 0)
 			(effects
 				(font
@@ -18199,7 +18053,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 430.53 68.58 0)
 			(effects
 				(font
@@ -18253,7 +18107,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -18534,7 +18388,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 394.97 81.28 0)
 			(effects
 				(font
@@ -18723,7 +18577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6914e49-4f37-49fd-a8ff-ff230de87db0")
-		(property "Reference" "D18"
+		(property "Reference" "D13"
 			(at 383.54 80.01 0)
 			(effects
 				(font
@@ -18739,7 +18593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 383.54 86.36 0)
 			(effects
 				(font
@@ -18793,7 +18647,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D18")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -18809,7 +18663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd50731-a959-4495-9e17-b1b78c5e00b0")
-		(property "Reference" "D14"
+		(property "Reference" "D12"
 			(at 505.46 62.23 0)
 			(effects
 				(font
@@ -18825,7 +18679,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 505.46 68.58 0)
 			(effects
 				(font
@@ -18879,7 +18733,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D14")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -18913,7 +18767,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 491.49 266.7 0)
 			(effects
 				(font
@@ -19048,7 +18902,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 515.62 81.28 0)
 			(effects
 				(font
@@ -19253,7 +19107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 417.83 63.5 0)
 			(effects
 				(font
@@ -19320,7 +19174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 494.03 237.49 0)
 			(effects
 				(font
@@ -19388,7 +19242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 430.53 48.26 0)
 			(effects
 				(font
@@ -19474,7 +19328,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 453.39 48.26 0)
 			(effects
 				(font
@@ -19605,77 +19459,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x03_Pin")
-		(at 143.51 67.31 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dee11e7a-0069-4efd-8828-3a40d9c653f2")
-		(property "Reference" "SPI1"
-			(at 143.51 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03_Pin"
-			(at 143.51 64.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-3P_1x03_P2.54mm_Horizontal"
-			(at 143.51 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 143.51 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f43e557d-b503-491b-97d1-1559afd219e1")
-		)
-		(pin "2"
-			(uuid "0d4817aa-a688-4268-a178-ee2f2c28568e")
-		)
-		(pin "1"
-			(uuid "6f9174e2-2051-4724-9953-0fae713a3094")
-		)
-		(instances
-			(project ""
-				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "SPI1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 504.19 86.36 0)
 		(unit 1)
@@ -19685,7 +19468,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e080e635-3795-4dd4-9698-8a64d05cdb46")
-		(property "Reference" "D15"
+		(property "Reference" "D18"
 			(at 504.19 80.01 0)
 			(effects
 				(font
@@ -19701,7 +19484,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 504.19 86.36 0)
 			(effects
 				(font
@@ -19755,7 +19538,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D15")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -19787,7 +19570,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 514.35 43.18 0)
 			(effects
 				(font
@@ -19855,7 +19638,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 487.68 81.28 0)
 			(effects
 				(font
@@ -19925,7 +19708,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_VH_B2P-VH-B_1x02_P3.96mm_Vertical"
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 54.61 313.69 0)
 			(effects
 				(font
@@ -20130,7 +19913,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 383.54 48.26 0)
 			(effects
 				(font
@@ -20216,7 +19999,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 441.96 63.5 0)
 			(effects
 				(font
@@ -20268,7 +20051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8047a1c-6fa2-4b2b-a20c-afbb367c9cb1")
-		(property "Reference" "D12"
+		(property "Reference" "D16"
 			(at 454.66 80.01 0)
 			(effects
 				(font
@@ -20284,7 +20067,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 454.66 86.36 0)
 			(effects
 				(font
@@ -20338,7 +20121,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D12")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -20370,7 +20153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 417.83 81.28 0)
 			(effects
 				(font
@@ -20438,7 +20221,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 487.68 43.18 0)
 			(effects
 				(font
@@ -20490,7 +20273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd2e5c3d-7fce-4cf1-98a2-02020aebfdfe")
-		(property "Reference" "D20"
+		(property "Reference" "D11"
 			(at 476.25 62.23 0)
 			(effects
 				(font
@@ -20506,7 +20289,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 476.25 68.58 0)
 			(effects
 				(font
@@ -20560,7 +20343,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "D20")
+					(reference "D11")
 					(unit 1)
 				)
 			)
