@@ -8366,7 +8366,7 @@
 	)
 	(global_label "S13_out2"
 		(shape input)
-		(at 58.42 251.46 0)
+		(at 59.69 306.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8376,7 +8376,7 @@
 		)
 		(uuid "1adaa2b0-da3e-44ce-80ac-c7072b5d9233")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2345 251.46 0)
+			(at 71.5045 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8782,9 +8782,9 @@
 			)
 		)
 	)
-	(global_label "S20_out2"
+	(global_label "S12_out2"
 		(shape input)
-		(at 58.42 330.2 0)
+		(at 58.42 318.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8794,7 +8794,7 @@
 		)
 		(uuid "2fc11773-c6da-4ee4-84f4-2c2e1a3803b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2345 330.2 0)
+			(at 70.2345 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9114,7 +9114,7 @@
 	)
 	(global_label "S17_out1"
 		(shape input)
-		(at 58.42 293.37 0)
+		(at 59.69 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9124,7 +9124,7 @@
 		)
 		(uuid "3d78d06c-d0d8-478a-952f-8dbaaee1b236")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2345 293.37 0)
+			(at 71.5045 259.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9136,7 +9136,7 @@
 	)
 	(global_label "S14_out2"
 		(shape input)
-		(at 59.69 261.62 0)
+		(at 58.42 295.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9146,7 +9146,7 @@
 		)
 		(uuid "3dff9ab0-7094-4d02-b5f2-1a544fc817ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5045 261.62 0)
+			(at 70.2345 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9202,7 +9202,7 @@
 	)
 	(global_label "S17_out2"
 		(shape input)
-		(at 58.42 295.91 0)
+		(at 59.69 261.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9212,7 +9212,7 @@
 		)
 		(uuid "3f37ddc2-ad6a-4f45-a07d-aa27b0eb0160")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2345 295.91 0)
+			(at 71.5045 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9356,7 +9356,7 @@
 	)
 	(global_label "S18_out1"
 		(shape input)
-		(at 59.69 303.53 0)
+		(at 58.42 248.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9366,7 +9366,7 @@
 		)
 		(uuid "430296a4-a271-45ae-a031-7aa8e2c9be9d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5045 303.53 0)
+			(at 70.2345 248.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9400,7 +9400,7 @@
 	)
 	(global_label "S14_out1"
 		(shape input)
-		(at 59.69 259.08 0)
+		(at 58.42 293.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9410,7 +9410,7 @@
 		)
 		(uuid "45300229-9f93-46b9-b1dd-4e56bc6474c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5045 259.08 0)
+			(at 70.2345 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11576,9 +11576,9 @@
 			)
 		)
 	)
-	(global_label "S19_out2"
+	(global_label "S11_out2"
 		(shape input)
-		(at 59.69 316.23 0)
+		(at 59.69 331.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11588,7 +11588,7 @@
 		)
 		(uuid "a6016df9-9784-447e-9888-df484c1beac2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5045 316.23 0)
+			(at 71.5045 331.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +12722,7 @@
 	)
 	(global_label "S18_out2"
 		(shape input)
-		(at 59.69 306.07 0)
+		(at 58.42 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12732,7 +12732,7 @@
 		)
 		(uuid "d1c84c00-64e7-418e-b6af-6621e41cbc3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5045 306.07 0)
+			(at 70.2345 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12764,9 +12764,9 @@
 			)
 		)
 	)
-	(global_label "S19_out1"
+	(global_label "S11_out1"
 		(shape input)
-		(at 59.69 313.69 0)
+		(at 59.69 328.93 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12776,7 +12776,7 @@
 		)
 		(uuid "d3d89fb4-74e2-497e-b83c-56aa5fcb9754")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 71.5045 313.69 0)
+			(at 71.5045 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13734,7 +13734,7 @@
 	)
 	(global_label "S13_out1"
 		(shape input)
-		(at 58.42 248.92 0)
+		(at 59.69 303.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13744,7 +13744,7 @@
 		)
 		(uuid "f29e59f0-7661-4e7f-b00a-92caed6da165")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2345 248.92 0)
+			(at 71.5045 303.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14018,9 +14018,9 @@
 			)
 		)
 	)
-	(global_label "S20_out1"
+	(global_label "S12_out1"
 		(shape input)
-		(at 58.42 327.66 0)
+		(at 58.42 316.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14030,7 +14030,7 @@
 		)
 		(uuid "f7ee63ce-eab2-462b-9ab2-ec14cda5d03e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.2345 327.66 0)
+			(at 70.2345 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15589,7 +15589,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 53.34 327.66 0)
+		(at 53.34 316.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15597,7 +15597,7 @@
 		(dnp no)
 		(uuid "3cf2e9e9-a7ca-4661-9f37-588a0c7094b5")
 		(property "Reference" "Solenoid12"
-			(at 53.975 322.58 0)
+			(at 53.975 311.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15605,7 +15605,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 53.975 325.12 0)
+			(at 53.975 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15613,7 +15613,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 53.34 327.66 0)
+			(at 53.34 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15622,7 +15622,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 327.66 0)
+			(at 53.34 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15631,7 +15631,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 53.34 327.66 0)
+			(at 53.34 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19682,7 +19682,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 54.61 313.69 0)
+		(at 54.61 328.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19691,7 +19691,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9ac18de-9798-4bb5-b584-cd8ee3bdafe8")
 		(property "Reference" "Solenoid11"
-			(at 53.34 316.2301 0)
+			(at 53.34 331.4701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19700,7 +19700,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 53.34 313.6901 0)
+			(at 53.34 328.9301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19709,7 +19709,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-			(at 54.61 313.69 0)
+			(at 54.61 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19718,7 +19718,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 54.61 313.69 0)
+			(at 54.61 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19727,7 +19727,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 54.61 313.69 0)
+			(at 54.61 328.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
