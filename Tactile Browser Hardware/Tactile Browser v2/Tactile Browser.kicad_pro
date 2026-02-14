@@ -187,7 +187,8 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.249936
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -219,6 +220,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.254,
+          "drill": 0.2032
         }
       ],
       "zones_allow_external_fillets": false
@@ -488,7 +493,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3048,
+        "clearance": 0.254,
         "diff_pair_gap": 0.3048,
         "diff_pair_width": 0.5588,
         "microvia_diameter": 0.3048,
@@ -497,7 +502,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.7112,
+        "track_width": 0.6604,
         "via_diameter": 0.508,
         "via_drill": 0.3048
       },

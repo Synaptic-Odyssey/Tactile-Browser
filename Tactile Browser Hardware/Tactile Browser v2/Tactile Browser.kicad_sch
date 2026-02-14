@@ -17650,7 +17650,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09dce0d4-6027-40ad-a422-462de003fb78")
-		(property "Reference" "100nF1"
+		(property "Reference" "100nF2"
 			(at 356.87 140.97 90)
 			(effects
 				(font
@@ -17702,7 +17702,7 @@
 		(instances
 			(project ""
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF1")
+					(reference "100nF2")
 					(unit 1)
 				)
 			)
@@ -17717,7 +17717,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cfa117e-419f-4cf2-8c8b-966fffa91443")
-		(property "Reference" "100nF7"
+		(property "Reference" "100nF9"
 			(at 367.284 331.47 90)
 			(effects
 				(font
@@ -17769,7 +17769,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF7")
+					(reference "100nF9")
 					(unit 1)
 				)
 			)
@@ -18325,7 +18325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "23785b0b-0a25-47e7-989c-4bd92839a22b")
-		(property "Reference" "100nF3"
+		(property "Reference" "100nF6"
 			(at 357.886 232.41 90)
 			(effects
 				(font
@@ -18377,7 +18377,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF3")
+					(reference "100nF6")
 					(unit 1)
 				)
 			)
@@ -18393,7 +18393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26ccc5f2-386e-420a-8780-17d4dfce56d7")
-		(property "Reference" "C2_100nF1"
+		(property "Reference" "100nF1"
 			(at 328.93 147.32 90)
 			(effects
 				(font
@@ -18445,7 +18445,7 @@
 		(instances
 			(project ""
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "C2_100nF1")
+					(reference "100nF1")
 					(unit 1)
 				)
 			)
@@ -18530,7 +18530,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "29391508-607c-4c34-b29f-bdea52680ce3")
-		(property "Reference" "100nF13"
+		(property "Reference" "100nF15"
 			(at 105.664 294.64 90)
 			(effects
 				(font
@@ -18582,7 +18582,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF13")
+					(reference "100nF15")
 					(unit 1)
 				)
 			)
@@ -19383,7 +19383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ac87695-b239-4e2d-a35a-c353d55c8941")
-		(property "Reference" "C2_100nF3"
+		(property "Reference" "100nF5"
 			(at 339.09 238.76 90)
 			(effects
 				(font
@@ -19435,7 +19435,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "C2_100nF3")
+					(reference "100nF5")
 					(unit 1)
 				)
 			)
@@ -20022,7 +20022,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a1766b-762b-4a49-9653-e80efb79f0af")
-		(property "Reference" "100nF9"
+		(property "Reference" "100nF11"
 			(at 108.204 185.42 90)
 			(effects
 				(font
@@ -20074,7 +20074,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF9")
+					(reference "100nF11")
 					(unit 1)
 				)
 			)
@@ -20299,7 +20299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "472697d1-2add-45c4-ac26-c3810c5b25f6")
-		(property "Reference" "100nF5"
+		(property "Reference" "100nF7"
 			(at 426.974 246.38 90)
 			(effects
 				(font
@@ -20351,7 +20351,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF5")
+					(reference "100nF7")
 					(unit 1)
 				)
 			)
@@ -21155,7 +21155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b9094de-c272-4f4f-ac44-b07cb07929d7")
-		(property "Reference" "C2_100nF2"
+		(property "Reference" "100nF3"
 			(at 426.72 146.05 90)
 			(effects
 				(font
@@ -21207,7 +21207,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "C2_100nF2")
+					(reference "100nF3")
 					(unit 1)
 				)
 			)
@@ -21222,7 +21222,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ca87314-7700-4d24-9e69-17740216e294")
-		(property "Reference" "100nF15"
+		(property "Reference" "100nF17"
 			(at 221.234 297.18 90)
 			(effects
 				(font
@@ -21274,7 +21274,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF15")
+					(reference "100nF17")
 					(unit 1)
 				)
 			)
@@ -21852,7 +21852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67cdc994-84f6-4fad-b99f-9c8a7e2d2da4")
-		(property "Reference" "100nF2"
+		(property "Reference" "100nF4"
 			(at 450.85 138.43 90)
 			(effects
 				(font
@@ -21904,7 +21904,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF2")
+					(reference "100nF4")
 					(unit 1)
 				)
 			)
@@ -23075,7 +23075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "98a88d6c-8322-4f96-9eef-14b3c84a6de7")
-		(property "Reference" "100nF4"
+		(property "Reference" "100nF8"
 			(at 446.786 231.14 90)
 			(effects
 				(font
@@ -23127,7 +23127,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF4")
+					(reference "100nF8")
 					(unit 1)
 				)
 			)
@@ -23349,7 +23349,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a38737d2-c874-44f2-af81-67e92f4ac78c")
-		(property "Reference" "100nF10"
+		(property "Reference" "100nF14"
 			(at 227.076 171.45 90)
 			(effects
 				(font
@@ -23401,7 +23401,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF10")
+					(reference "100nF14")
 					(unit 1)
 				)
 			)
@@ -23416,7 +23416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a548ba59-e943-41ac-b5bf-039c189b03a5")
-		(property "Reference" "100nF8"
+		(property "Reference" "100nF12"
 			(at 128.016 172.72 90)
 			(effects
 				(font
@@ -23468,7 +23468,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF8")
+					(reference "100nF12")
 					(unit 1)
 				)
 			)
@@ -24257,7 +24257,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9264d68-183c-4dbc-86c0-fa8f57a638a7")
-		(property "Reference" "100nF11"
+		(property "Reference" "100nF13"
 			(at 207.264 194.31 90)
 			(effects
 				(font
@@ -24309,7 +24309,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF11")
+					(reference "100nF13")
 					(unit 1)
 				)
 			)
@@ -24324,7 +24324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b94ab568-6159-43ed-a942-e9cd261a2a2f")
-		(property "Reference" "100nF12"
+		(property "Reference" "100nF16"
 			(at 125.476 276.86 90)
 			(effects
 				(font
@@ -24376,7 +24376,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF12")
+					(reference "100nF16")
 					(unit 1)
 				)
 			)
@@ -24936,7 +24936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c32ca6f5-4f28-4187-85a4-604b682d7d76")
-		(property "Reference" "100nF6"
+		(property "Reference" "100nF10"
 			(at 387.096 309.88 90)
 			(effects
 				(font
@@ -24988,7 +24988,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF6")
+					(reference "100nF10")
 					(unit 1)
 				)
 			)
@@ -27324,7 +27324,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb787876-ecfa-4273-b7d7-13b9c7bd5de3")
-		(property "Reference" "100nF14"
+		(property "Reference" "100nF18"
 			(at 241.046 275.59 90)
 			(effects
 				(font
@@ -27376,7 +27376,7 @@
 		(instances
 			(project "Tactile Browser"
 				(path "/2e399075-89ae-469c-893b-1284214b820d"
-					(reference "100nF14")
+					(reference "100nF18")
 					(unit 1)
 				)
 			)
