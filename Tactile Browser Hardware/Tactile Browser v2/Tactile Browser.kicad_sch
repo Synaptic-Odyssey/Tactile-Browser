@@ -9642,7 +9642,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 422.91 172.72 180)
 		(fields_autoplaced yes)
@@ -9654,7 +9654,7 @@
 		)
 		(uuid "09d654e0-bdb3-4276-92e0-21a970e95325")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 413.575 172.72 0)
+			(at 415.3891 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10940,7 +10940,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 218.44 313.69 180)
 		(fields_autoplaced yes)
@@ -10952,7 +10952,7 @@
 		)
 		(uuid "2c64e94b-ad84-4a56-9089-b61c181f728e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.105 313.69 0)
+			(at 210.9191 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13426,7 +13426,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 335.28 265.43 180)
 		(fields_autoplaced yes)
@@ -13438,7 +13438,7 @@
 		)
 		(uuid "7a9f96e9-8058-4ce7-8804-be497cb05f91")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 325.945 265.43 0)
+			(at 327.7591 265.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13822,7 +13822,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 146.05 86.36 180)
 		(fields_autoplaced yes)
@@ -13834,7 +13834,7 @@
 		)
 		(uuid "8a04ce63-19e3-42be-9459-99cf154f70d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.715 86.36 0)
+			(at 138.5291 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13888,7 +13888,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 204.47 210.82 180)
 		(fields_autoplaced yes)
@@ -13900,7 +13900,7 @@
 		)
 		(uuid "8e2c666e-185a-4371-ad63-165f32f3fcdf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.135 210.82 0)
+			(at 196.9491 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14328,7 +14328,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 424.18 266.7 180)
 		(fields_autoplaced yes)
@@ -14340,7 +14340,7 @@
 		)
 		(uuid "a65ede91-d4ee-44cf-bbf0-25652af2a3cc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 414.845 266.7 0)
+			(at 416.6591 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14658,7 +14658,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 364.49 347.98 180)
 		(fields_autoplaced yes)
@@ -14670,7 +14670,7 @@
 		)
 		(uuid "b0168acb-df35-4a02-b055-85f030188b00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 355.155 347.98 0)
+			(at 356.9691 347.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15274,7 +15274,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 105.41 212.09 180)
 		(fields_autoplaced yes)
@@ -15286,7 +15286,7 @@
 		)
 		(uuid "c9cda0fa-1ef4-41f2-8af9-43221d11d5a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.075 212.09 0)
+			(at 97.8891 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16374,7 +16374,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 102.87 313.69 180)
 		(fields_autoplaced yes)
@@ -16386,7 +16386,7 @@
 		)
 		(uuid "eb347d57-8732-4eb2-9c76-49ee72d69c0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.535 313.69 0)
+			(at 95.3491 313.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17078,7 +17078,7 @@
 			)
 		)
 	)
-	(global_label "Enable"
+	(global_label "STBY"
 		(shape input)
 		(at 328.93 173.99 180)
 		(fields_autoplaced yes)
@@ -17090,7 +17090,7 @@
 		)
 		(uuid "f55c3f79-22b5-4979-8719-ead6dfff69c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 319.595 173.99 0)
+			(at 321.4091 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22356,7 +22356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Altech:Altech_AK100_1x02_P5.00mm"
+		(property "Footprint" "TerminalBlock_Phoenix:ScrewTerminal_Vertical_1935310"
 			(at 24.13 24.13 0)
 			(effects
 				(font
@@ -25679,7 +25679,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 44.45 25.4 0)
 			(effects
 				(font
@@ -26398,7 +26398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-2P_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-SM4-TB_1x02-1MP_P2.00mm_Vertical"
 			(at 66.04 26.67 0)
 			(effects
 				(font
