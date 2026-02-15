@@ -188,7 +188,8 @@
       ],
       "track_widths": [
         0.0,
-        0.249936
+        0.249936,
+        0.6604
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -223,7 +224,11 @@
         },
         {
           "diameter": 0.254,
-          "drill": 0.2032
+          "drill": 0.1778
+        },
+        {
+          "diameter": 0.508,
+          "drill": 0.381
         }
       ],
       "zones_allow_external_fillets": false
@@ -504,7 +509,7 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6604,
         "via_diameter": 0.508,
-        "via_drill": 0.3048
+        "via_drill": 0.381
       },
       {
         "clearance": 0.2032,
@@ -517,8 +522,8 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
-        "via_diameter": 0.2032,
-        "via_drill": 0.3048
+        "via_diameter": 0.3048,
+        "via_drill": 0.254
       }
     ],
     "meta": {
