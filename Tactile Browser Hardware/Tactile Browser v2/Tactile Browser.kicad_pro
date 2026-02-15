@@ -508,8 +508,8 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6604,
-        "via_diameter": 0.508,
-        "via_drill": 0.381
+        "via_diameter": 0.762,
+        "via_drill": 0.7112
       },
       {
         "clearance": 0.2032,
