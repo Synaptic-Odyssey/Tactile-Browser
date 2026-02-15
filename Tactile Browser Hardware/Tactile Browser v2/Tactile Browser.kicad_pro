@@ -500,16 +500,16 @@
       {
         "clearance": 0.254,
         "diff_pair_gap": 0.3048,
-        "diff_pair_width": 0.5588,
-        "microvia_diameter": 0.3048,
-        "microvia_drill": 0.1524,
+        "diff_pair_width": 0.7112,
+        "microvia_diameter": 0.4572,
+        "microvia_drill": 0.3048,
         "name": "12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6604,
-        "via_diameter": 0.762,
-        "via_drill": 0.7112
+        "via_diameter": 0.508,
+        "via_drill": 0.3048
       },
       {
         "clearance": 0.2032,
@@ -522,8 +522,8 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2032,
-        "via_diameter": 0.3048,
-        "via_drill": 0.254
+        "via_diameter": 0.2032,
+        "via_drill": 0.127
       }
     ],
     "meta": {

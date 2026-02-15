@@ -6803,6 +6803,12 @@
 		(uuid "090741d1-484b-4c26-b6a9-1d2e31cbf7cc")
 	)
 	(junction
+		(at 389.89 270.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0aab54fa-850f-47e9-b53c-543d180a6caf")
+	)
+	(junction
 		(at 421.64 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6813,6 +6819,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ce4488c-1280-45f9-83f8-5083537dd9c6")
+	)
+	(junction
+		(at 389.89 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e415230-d23c-4bee-91ba-b53a8c467932")
 	)
 	(junction
 		(at 280.67 326.39)
@@ -6827,22 +6839,10 @@
 		(uuid "127e26cd-2a05-43e2-a2ba-dfc39b7b58e6")
 	)
 	(junction
-		(at 368.3 283.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27a717b2-dc0b-44c9-ae48-c05131d67399")
-	)
-	(junction
 		(at 398.78 365.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "283a1ed6-591e-449b-991e-f0eaae18ecf0")
-	)
-	(junction
-		(at 368.3 265.43)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28c7cba8-e1b6-4440-9984-a60d32b56fbf")
 	)
 	(junction
 		(at 444.5 67.31)
@@ -6995,6 +6995,12 @@
 		(uuid "7099f1a8-aeb1-4de1-bc21-f047ec054051")
 	)
 	(junction
+		(at 368.3 283.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78c781b2-8e1b-44d2-b1ce-ed9fb3a244ec")
+	)
+	(junction
 		(at 447.04 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7029,6 +7035,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "839eef7c-7fe8-4f39-9e9a-ceebc1d43973")
+	)
+	(junction
+		(at 368.3 265.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8730430b-0408-4d6d-90b7-4a84757e5c0d")
 	)
 	(junction
 		(at 254 331.47)
@@ -7187,12 +7199,6 @@
 		(uuid "c665a420-8155-4478-8b88-da317dec849c")
 	)
 	(junction
-		(at 391.16 278.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8993830-0cc6-486d-95f4-d09ec32cb6f5")
-	)
-	(junction
 		(at 262.89 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7257,12 +7263,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f21a3a73-36a5-4a84-aa7a-859541367128")
-	)
-	(junction
-		(at 388.62 270.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fab4523a-2cf1-4e40-9766-98c0a7d93ec8")
 	)
 	(wire
 		(pts
@@ -7646,6 +7646,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 283.21) (xy 372.11 283.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "309caf1a-055f-43bd-b902-6363bd6cf80a")
+	)
+	(wire
+		(pts
 			(xy 142.24 313.69) (xy 137.16 313.69)
 		)
 		(stroke
@@ -7906,6 +7916,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 270.51) (xy 393.7 270.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5af7ecbb-36a4-4905-b0f1-95f5e4508d84")
+	)
+	(wire
+		(pts
 			(xy 431.8 232.41) (xy 431.8 238.76)
 		)
 		(stroke
@@ -8033,16 +8053,6 @@
 			(type default)
 		)
 		(uuid "688ff16d-d98f-401d-aa75-20d98628267a")
-	)
-	(wire
-		(pts
-			(xy 372.11 265.43) (xy 368.3 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b97f771-b078-4b99-bdfe-0ea82d33e758")
 	)
 	(wire
 		(pts
@@ -8196,7 +8206,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 283.21) (xy 365.76 283.21)
+			(xy 365.76 283.21) (xy 368.3 283.21)
 		)
 		(stroke
 			(width 0)
@@ -8536,6 +8546,16 @@
 	)
 	(wire
 		(pts
+			(xy 389.89 278.13) (xy 393.7 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a06a6b60-6d4a-4ea6-83f3-c8731c0d9b37")
+	)
+	(wire
+		(pts
 			(xy 515.62 67.31) (xy 515.62 73.66)
 		)
 		(stroke
@@ -8553,16 +8573,6 @@
 			(type default)
 		)
 		(uuid "a209bfae-0278-482e-ad42-2174ecdcf671")
-	)
-	(wire
-		(pts
-			(xy 372.11 283.21) (xy 368.3 283.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3dffcda-bbd7-48a8-9c70-33319e16df95")
 	)
 	(wire
 		(pts
@@ -8586,6 +8596,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 265.43) (xy 372.11 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6856183-39f4-4d41-a927-13840407a002")
+	)
+	(wire
+		(pts
 			(xy 165.1 318.77) (xy 160.02 318.77)
 		)
 		(stroke
@@ -8596,7 +8616,7 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 278.13) (xy 391.16 278.13)
+			(xy 365.76 278.13) (xy 389.89 278.13)
 		)
 		(stroke
 			(width 0)
@@ -8636,7 +8656,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 270.51) (xy 365.76 270.51)
+			(xy 365.76 270.51) (xy 389.89 270.51)
 		)
 		(stroke
 			(width 0)
@@ -8663,16 +8683,6 @@
 			(type default)
 		)
 		(uuid "af27b98a-ae7d-4763-8c1a-dd438dde7343")
-	)
-	(wire
-		(pts
-			(xy 393.7 278.13) (xy 391.16 278.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b004c491-3113-45a4-bee3-bde1a6f65e33")
 	)
 	(wire
 		(pts
@@ -8806,7 +8816,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 265.43) (xy 365.76 265.43)
+			(xy 365.76 265.43) (xy 368.3 265.43)
 		)
 		(stroke
 			(width 0)
@@ -8843,16 +8853,6 @@
 			(type default)
 		)
 		(uuid "c0744e70-a3f2-4ffe-bc07-72ddf81050d5")
-	)
-	(wire
-		(pts
-			(xy 393.7 270.51) (xy 388.62 270.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c11408bf-ea7a-4716-b051-9e0553a66cb8")
 	)
 	(wire
 		(pts
@@ -9446,22 +9446,22 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 368.3 290.83 270)
+		(at 368.3 257.81 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "039a1773-958e-4cee-96dd-2e27708989b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.3 297.3228 90)
+			(at 368.3 251.3172 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11206,22 +11206,22 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 368.3 257.81 90)
+		(at 368.3 290.83 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "392087b1-ee79-497d-857d-225a15ce44c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 368.3 251.3172 90)
+			(at 368.3 297.3228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11712,22 +11712,22 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 391.16 285.75 270)
+		(at 389.89 262.89 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "4343590b-c1b0-4f1b-8846-4e12965701ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 391.16 292.2428 90)
+			(at 389.89 256.3972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15144,22 +15144,22 @@
 	)
 	(global_label "12V"
 		(shape input)
-		(at 388.62 262.89 90)
+		(at 389.89 285.75 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c52479d1-aeda-4cf3-902c-da7f341a8ff5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 388.62 256.3972 90)
+			(at 389.89 292.2428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -19875,7 +19875,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 391.16 281.94 90)
+		(at 389.89 266.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19884,7 +19884,7 @@
 		(fields_autoplaced yes)
 		(uuid "402d0bd7-bc1f-425d-b763-ffb7c74a1fa3")
 		(property "Reference" "DS10"
-			(at 388.62 283.5276 90)
+			(at 392.43 265.1124 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19893,7 +19893,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 388.62 280.9876 90)
+			(at 392.43 267.6524 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19902,7 +19902,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 391.16 281.94 0)
+			(at 389.89 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19911,7 +19911,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 391.16 281.94 0)
+			(at 389.89 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19920,7 +19920,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 391.16 281.94 0)
+			(at 389.89 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21636,7 +21636,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 368.3 287.02 90)
+		(at 368.3 261.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21645,7 +21645,7 @@
 		(fields_autoplaced yes)
 		(uuid "60ebf747-799e-4350-ac43-2b686f201b9f")
 		(property "Reference" "DS9"
-			(at 365.76 288.6076 90)
+			(at 370.84 260.0324 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21654,7 +21654,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 365.76 286.0676 90)
+			(at 370.84 262.5724 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21663,7 +21663,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 368.3 287.02 0)
+			(at 368.3 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21672,7 +21672,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 287.02 0)
+			(at 368.3 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21681,7 +21681,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 368.3 287.02 0)
+			(at 368.3 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22190,7 +22190,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 368.3 261.62 270)
+		(at 368.3 287.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22199,7 +22199,7 @@
 		(fields_autoplaced yes)
 		(uuid "7048088f-08fc-4a1f-8375-30418c336f40")
 		(property "Reference" "DS12"
-			(at 370.84 260.0324 90)
+			(at 365.76 288.6076 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22208,7 +22208,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 370.84 262.5724 90)
+			(at 365.76 286.0676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22217,7 +22217,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 368.3 261.62 0)
+			(at 368.3 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22226,7 +22226,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 368.3 261.62 0)
+			(at 368.3 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22235,7 +22235,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 368.3 261.62 0)
+			(at 368.3 287.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23272,7 +23272,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Schottky")
-		(at 388.62 266.7 270)
+		(at 389.89 281.94 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23281,7 +23281,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ca13ccf-f515-4b3b-bc86-5cf4d1991d85")
 		(property "Reference" "DS11"
-			(at 391.16 265.1124 90)
+			(at 387.35 283.5276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23290,7 +23290,7 @@
 			)
 		)
 		(property "Value" "D_Schottky"
-			(at 391.16 267.6524 90)
+			(at 387.35 280.9876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23299,7 +23299,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 388.62 266.7 0)
+			(at 389.89 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23308,7 +23308,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 266.7 0)
+			(at 389.89 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23317,7 +23317,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 388.62 266.7 0)
+			(at 389.89 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
