@@ -22356,7 +22356,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:ScrewTerminal_Vertical_1935310"
+		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type094_RT03506HBLU_1x06_P5.00mm_Horizontal"
 			(at 24.13 24.13 0)
 			(effects
 				(font
