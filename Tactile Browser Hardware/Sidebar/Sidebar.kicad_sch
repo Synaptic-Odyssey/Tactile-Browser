@@ -4151,7 +4151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 184.15 20.066 0)
 			(effects
 				(font
@@ -4222,7 +4222,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type011_RT05503HBLC_1x03_P5.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock_Phoenix:ScrewTerminal_Vertical_1935310"
 			(at 119.38 31.75 0)
 			(effects
 				(font
@@ -5706,7 +5706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx"
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 220.98 21.336 0)
 			(effects
 				(font
