@@ -6650,7 +6650,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+		(property "Footprint" "fuse_3560:FUSE_3560"
 			(at 64.77 41.148 90)
 			(effects
 				(font
