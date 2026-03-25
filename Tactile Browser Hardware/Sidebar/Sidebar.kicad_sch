@@ -3325,28 +3325,6 @@
 		)
 		(uuid "fcd0fa8a-f212-47d2-bd5f-f960a3f6255c")
 	)
-	(global_label "A7"
-		(shape input)
-		(at 87.63 26.67 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0da6df87-db83-4bf1-884a-688443b2562a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.9133 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape input)
 		(at 110.49 52.07 270)
@@ -4073,28 +4051,6 @@
 			)
 		)
 	)
-	(global_label "A7"
-		(shape input)
-		(at 97.79 128.27 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c596553c-4926-4405-abf3-e29d772e69f7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 103.0733 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "RE2"
 		(shape input)
 		(at 72.39 102.87 180)
@@ -4240,6 +4196,28 @@
 		(uuid "f0152667-f705-4090-b0d1-d388224eab4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 171.45 51.1411 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "D12_mosfet"
+		(shape input)
+		(at 87.63 26.67 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f114eea4-3dc3-4842-a0df-dbf838938c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 101.6822 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
