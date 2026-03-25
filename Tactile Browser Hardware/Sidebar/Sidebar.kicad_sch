@@ -2338,12 +2338,6 @@
 		(uuid "04d2166c-fa0e-487a-9880-46cbd983416d")
 	)
 	(junction
-		(at 118.11 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07269aff-77d6-4f0c-a227-b9277ab834ae")
-	)
-	(junction
 		(at 238.76 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2420,6 +2414,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b766853-c150-41b9-9aff-75c36ea5f6fc")
+	)
+	(junction
+		(at 118.11 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92ccec64-a7ce-47ec-9785-b617f7939523")
 	)
 	(junction
 		(at 102.87 44.45)
@@ -2917,6 +2917,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 44.45) (xy 123.19 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ba1f49-d805-4530-a48d-1fccd6f2393f")
+	)
+	(wire
+		(pts
 			(xy 233.68 73.66) (xy 238.76 73.66)
 		)
 		(stroke
@@ -3127,16 +3137,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 44.45) (xy 125.73 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca1694cc-63d8-4cd6-91af-39c08a916d24")
-	)
-	(wire
-		(pts
 			(xy 208.28 58.42) (xy 208.28 73.66)
 		)
 		(stroke
@@ -3274,6 +3274,16 @@
 			(type default)
 		)
 		(uuid "ee6480b3-144d-418f-afba-9022d8f52f3f")
+	)
+	(wire
+		(pts
+			(xy 123.19 44.45) (xy 123.19 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2db322d-9228-4da9-bcee-30b7947efcb2")
 	)
 	(wire
 		(pts
@@ -3493,7 +3503,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 127 27.94 270)
+		(at 125.73 26.67 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3503,7 +3513,7 @@
 		)
 		(uuid "3455bae9-d68e-44bc-be32-e8e5fbc9ee48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127 34.7957 90)
+			(at 125.73 33.5257 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,6 +3787,28 @@
 			)
 		)
 	)
+	(global_label "5V"
+		(shape input)
+		(at 167.64 27.94 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8680eedf-50ec-4279-8b1a-02e286b6cc32")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.64 33.2233 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "AS2"
 		(shape input)
 		(at 240.03 31.75 180)
@@ -3823,7 +3855,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 146.05 27.94 270)
+		(at 148.59 27.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3833,7 +3865,7 @@
 		)
 		(uuid "9e6de1e3-8158-4d70-bd89-8ccfd8af0e4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 146.05 34.4933 90)
+			(at 148.59 34.4933 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3955,7 +3987,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 148.59 27.94 270)
+		(at 146.05 27.94 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3965,7 +3997,7 @@
 		)
 		(uuid "b0132ef2-8554-4813-b3fc-de7f8449265a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 34.4328 90)
+			(at 146.05 34.4328 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4693,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b17a8c-b632-4710-87dc-2e734236175d")
-		(property "Reference" "1kR"
+		(property "Reference" "1kR1"
 			(at 83.82 20.32 90)
 			(effects
 				(font
@@ -4677,7 +4709,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 83.82 28.448 90)
 			(effects
 				(font
@@ -4713,7 +4745,7 @@
 		(instances
 			(project ""
 				(path "/16cfaf40-0992-40a8-a734-5ca99128006a"
-					(reference "1kR")
+					(reference "1kR1")
 					(unit 1)
 				)
 			)
@@ -4969,7 +5001,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-3_TabPin2"
 			(at 78.74 41.91 0)
 			(effects
 				(font
@@ -5720,7 +5752,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767fae77-280f-4e5f-a1c8-b9535ff30a99")
-		(property "Reference" "100kR"
+		(property "Reference" "100kR1"
 			(at 59.69 20.32 90)
 			(effects
 				(font
@@ -5736,7 +5768,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 24.892 90)
 			(effects
 				(font
@@ -5772,7 +5804,7 @@
 		(instances
 			(project ""
 				(path "/16cfaf40-0992-40a8-a734-5ca99128006a"
-					(reference "100kR")
+					(reference "100kR1")
 					(unit 1)
 				)
 			)
