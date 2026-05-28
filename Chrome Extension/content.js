@@ -1,5 +1,3 @@
-
-
 const socket = new WebSocket(
     "ws://localhost:8765"
 );
@@ -26,64 +24,8 @@ socket.onclose = () => {
     );
 };
 
-socket.onmessage = (event) => {
-
-    const msg = event.data;
-
-    console.log(
-        'Hardware:',
-        msg
-    );
-
-    if (
-        msg.startsWith('SHORT:')
-    ) {
-
-        const coords =
-            msg.replace(
-                'SHORT:',
-                ''
-            );
-
-        const [
-            r,
-            c
-        ] = coords.split(',');
-
-        const data =
-            latestMetadataGrid?.[
-                parseInt(r)
-            ]?.[
-                parseInt(c)
-            ];
-
-        if (!data)
-            return;
-
-        speechSynthesis.cancel();
-
-        const utterance =
-            new SpeechSynthesisUtterance(
-
-                data.text ||
-
-                data.type ||
-
-                'Unknown'
-            );
-
-        speechSynthesis.speak(
-            utterance
-        );
-    }
-};
-
-
-
 const GRID_WIDTH = 12;
 const GRID_HEIGHT = 6;
-
-
 
 const semanticSelectors = [
 
@@ -102,14 +44,16 @@ const semanticSelectors = [
     'h3',
     'h4',
 
+    'p',
+    'article',
+    'section',
+
     '[role="button"]',
     '[role="link"]',
     '[role="textbox"]',
 
     'nav'
 ];
-
-
 
 const tactilePatterns = {
 
@@ -134,9 +78,12 @@ const tactilePatterns = {
     nav: [
         [1],
         [1]
+    ],
+
+    text: [
+        [1,1]
     ]
 };
-
 
 const typePriority = {
 
@@ -148,9 +95,10 @@ const typePriority = {
 
     nav: 7,
 
-    image: 6
-};
+    image: 6,
 
+    text: 5
+};
 
 const MAX_ELEMENTS = 28;
 
@@ -158,8 +106,6 @@ const MAX_SEARCH_RADIUS = 2;
 
 let latestGrid = null;
 let latestMetadataGrid = null;
-
-
 
 function debounce(func, wait) {
 
@@ -258,14 +204,20 @@ function classify(el) {
         return 'image';
     }
 
+    if (
+        tag === 'p' ||
+        tag === 'article' ||
+        tag === 'section'
+    ) {
+        return 'text';
+    }
+
     if (tag === 'nav') {
         return 'nav';
     }
 
     return null;
 }
-
-
 
 function extractSemanticElements() {
 
@@ -294,21 +246,13 @@ function extractSemanticElements() {
             const text =
                 getAccessibleText(el);
 
-            /*
-            Ignore empty junk
-            */
-
             if (
-                text.length === 0 &&
+                text.length < 12 &&
                 !['img', 'video']
                 .includes(el.tagName.toLowerCase())
             ) {
                 continue;
             }
-
-            /*
-            Ignore tiny elements
-            */
 
             if (
                 rect.width < 30 ||
@@ -316,10 +260,6 @@ function extractSemanticElements() {
             ) {
                 continue;
             }
-
-            /*
-            Ignore gigantic wrappers
-            */
 
             if (
                 rect.width >
@@ -333,7 +273,9 @@ function extractSemanticElements() {
             if (!el.dataset.tactileId) {
 
                 el.dataset.tactileId =
-                    crypto.randomUUID();
+                    Math.random()
+                    .toString(36)
+                    .slice(2);
             }
 
             const type =
@@ -381,8 +323,6 @@ function extractSemanticElements() {
 
     return elements;
 }
-
-
 
 function viewportToGrid(x, y) {
 
@@ -434,8 +374,6 @@ function createMetadataGrid() {
     );
 }
 
-
-
 function canPlace(
     grid,
     pattern,
@@ -466,10 +404,6 @@ function canPlace(
                 return false;
             }
 
-            /*
-            Orthogonal touching forbidden
-            */
-
             const orthogonal = [
 
                 [x+1, y],
@@ -497,8 +431,6 @@ function canPlace(
 
     return true;
 }
-
-
 
 function findNearestSpot(
     grid,
@@ -545,8 +477,6 @@ function findNearestSpot(
 
     return null;
 }
-
-
 
 function renderSemanticGrid() {
 
@@ -715,11 +645,6 @@ function renderSemanticGrid() {
             }
         }
 
-        console.log(
-            'Sending to hardware:',
-            serialString
-        );
-
         socket.send(serialString);
     }
 
@@ -740,7 +665,6 @@ function renderSemanticGrid() {
             Date.now()
     });
 }
-
 
 renderSemanticGrid();
 

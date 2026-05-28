@@ -4,6 +4,19 @@ const GRID_HEIGHT = 6;
 const gridContainer =
     document.getElementById("grid");
 
+const info =
+    document.createElement("div");
+
+info.style.marginTop = "12px";
+info.style.color = "white";
+info.style.fontSize = "12px";
+info.style.maxWidth = "320px";
+info.style.fontFamily = "sans-serif";
+
+document.body.appendChild(info);
+
+let latestMetadataGrid = null;
+
 function createGrid() {
 
     gridContainer.innerHTML = "";
@@ -15,14 +28,77 @@ function createGrid() {
             const cell =
                 document.createElement("div");
 
-            cell.className = "cell";
+            cell.classList.add("cell");
+
+            cell.dataset.x = x;
+            cell.dataset.y = y;
+
+            cell.addEventListener(
+                "mouseenter",
+                (e) => {
+
+                    if (
+                        !latestMetadataGrid
+                    ) {
+                        return;
+                    }
+
+                    const x =
+                        parseInt(
+                            e.target.dataset.x
+                        );
+
+                    const y =
+                        parseInt(
+                            e.target.dataset.y
+                        );
+
+                    const data =
+                        latestMetadataGrid?.[
+                            y
+                        ]?.[
+                            x
+                        ];
+
+                    if (!data) {
+
+                        info.innerHTML =
+                            "Empty";
+
+                        return;
+                    }
+
+                    info.innerHTML = `
+
+                        <b>Type:</b>
+                        ${data.type}
+                        <br>
+
+                        <b>Tag:</b>
+                        ${data.tag}
+                        <br>
+
+                        <b>Text:</b>
+                        ${
+                            data.text ||
+                            '(none)'
+                        }
+                    `;
+                }
+            );
 
             gridContainer.appendChild(cell);
         }
     }
 }
 
-function renderGrid(grid) {
+function renderGrid(
+    grid,
+    metadataGrid
+) {
+
+    latestMetadataGrid =
+        metadataGrid;
 
     if (!grid)
         return;
@@ -59,26 +135,22 @@ function renderGrid(grid) {
     }
 }
 
-chrome.runtime.sendMessage({
+chrome.runtime.onMessage.addListener(
+    (message) => {
 
-    type:
-        'REQUEST_LATEST_GRID'
+        if (
+            message.type ===
+            'TACTILE_ELEMENTS_UPDATE'
+        ) {
 
-}, (response) => {
+            renderGrid(
 
-    console.log(
-        'POPUP RESPONSE:',
-        response
-    );
+                message.tactileGrid,
 
-    if (
-        response?.tactileGrid
-    ) {
-
-        renderGrid(
-            response.tactileGrid
-        );
+                message.metadataGrid
+            );
+        }
     }
-});
+);
 
 createGrid();

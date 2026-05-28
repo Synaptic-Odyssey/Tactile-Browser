@@ -4,6 +4,8 @@ body {
     padding: 10px;
 
     background: #222;
+
+    width: max-content;
 }
 
 #grid {
@@ -13,7 +15,12 @@ body {
     grid-template-columns:
         repeat(12, 20px);
 
+    grid-template-rows:
+        repeat(6, 20px);
+
     gap: 4px;
+
+    width: max-content;
 }
 
 .cell {
@@ -24,6 +31,8 @@ body {
     background: white;
 
     border-radius: 3px;
+
+    box-sizing: border-box;
 }
 
 .cell.raised {
