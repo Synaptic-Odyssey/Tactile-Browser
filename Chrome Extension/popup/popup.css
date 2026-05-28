@@ -1,0 +1,32 @@
+body {
+
+    margin: 0;
+    padding: 10px;
+
+    background: #222;
+}
+
+#grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(12, 20px);
+
+    gap: 4px;
+}
+
+.cell {
+
+    width: 20px;
+    height: 20px;
+
+    background: white;
+
+    border-radius: 3px;
+}
+
+.cell.raised {
+
+    background: black;
+}
